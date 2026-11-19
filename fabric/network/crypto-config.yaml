@@ -1,0 +1,39 @@
+OrdererOrgs:
+  - Name: Orderer
+    Domain: pharmachain.ke
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+
+PeerOrgs:
+  - Name: DawaLife
+    Domain: dawa.pharmachain.ke
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: KemsaSupply
+    Domain: kemsa.pharmachain.ke
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: GoodlifePharm
+    Domain: goodlife.pharmachain.ke
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 1
+
+  - Name: PpbRegulator
+    Domain: ppb.pharmachain.ke
+    EnableNodeOUs: true
+    Template:
+      Count: 1
+    Users:
+      Count: 1

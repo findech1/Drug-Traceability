@@ -1,0 +1,6 @@
+{
+  "name": "PharmaChain — SDG 3 Drug Traceability Ledger",
+  "description": "Permissioned blockchain-based pharmaceutical supply chain traceability system aligned with UN SDG 3 (Good Health and Well-Being), featuring Web Crypto ECDSA signatures, SHA-256 block verification, smart contracts, and real-time recall alerts.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

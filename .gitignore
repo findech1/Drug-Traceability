@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local Fabric private keys
+priv_sk
+*.key
+
+# Fabric runtime binaries downloaded by bootstrap
+/fabric/network/bin/

@@ -1,0 +1,191 @@
+Organizations:
+  - &OrdererOrg
+    Name: OrdererOrg
+    ID: OrdererMSP
+    MSPDir: organizations/ordererOrganizations/pharmachain.ke/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('OrdererMSP.member')"
+      Writers:
+        Type: Signature
+        Rule: "OR('OrdererMSP.member')"
+      Admins:
+        Type: Signature
+        Rule: "OR('OrdererMSP.admin')"
+    OrdererEndpoints:
+      - orderer.pharmachain.ke:7050
+
+  - &DawaLife
+    Name: DawaLifeMSP
+    ID: DawaLifeMSP
+    MSPDir: organizations/peerOrganizations/dawa.pharmachain.ke/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('DawaLifeMSP.admin', 'DawaLifeMSP.peer', 'DawaLifeMSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('DawaLifeMSP.admin', 'DawaLifeMSP.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('DawaLifeMSP.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('DawaLifeMSP.peer')"
+    AnchorPeers:
+      - Host: peer0.dawa.pharmachain.ke
+        Port: 7051
+
+  - &KemsaSupply
+    Name: KemsaSupplyMSP
+    ID: KemsaSupplyMSP
+    MSPDir: organizations/peerOrganizations/kemsa.pharmachain.ke/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('KemsaSupplyMSP.admin', 'KemsaSupplyMSP.peer', 'KemsaSupplyMSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('KemsaSupplyMSP.admin', 'KemsaSupplyMSP.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('KemsaSupplyMSP.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('KemsaSupplyMSP.peer')"
+    AnchorPeers:
+      - Host: peer0.kemsa.pharmachain.ke
+        Port: 9051
+
+  - &GoodlifePharm
+    Name: GoodlifePharmMSP
+    ID: GoodlifePharmMSP
+    MSPDir: organizations/peerOrganizations/goodlife.pharmachain.ke/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('GoodlifePharmMSP.admin', 'GoodlifePharmMSP.peer', 'GoodlifePharmMSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('GoodlifePharmMSP.admin', 'GoodlifePharmMSP.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('GoodlifePharmMSP.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('GoodlifePharmMSP.peer')"
+    AnchorPeers:
+      - Host: peer0.goodlife.pharmachain.ke
+        Port: 11051
+
+  - &PpbRegulator
+    Name: PpbRegulatorMSP
+    ID: PpbRegulatorMSP
+    MSPDir: organizations/peerOrganizations/ppb.pharmachain.ke/msp
+    Policies:
+      Readers:
+        Type: Signature
+        Rule: "OR('PpbRegulatorMSP.admin', 'PpbRegulatorMSP.peer', 'PpbRegulatorMSP.client')"
+      Writers:
+        Type: Signature
+        Rule: "OR('PpbRegulatorMSP.admin', 'PpbRegulatorMSP.client')"
+      Admins:
+        Type: Signature
+        Rule: "OR('PpbRegulatorMSP.admin')"
+      Endorsement:
+        Type: Signature
+        Rule: "OR('PpbRegulatorMSP.peer')"
+    AnchorPeers:
+      - Host: peer0.ppb.pharmachain.ke
+        Port: 13051
+
+Capabilities:
+  Channel: &ChannelCapabilities
+    V2_0: true
+  Orderer: &OrdererCapabilities
+    V2_0: true
+  Application: &ApplicationCapabilities
+    V2_5: true
+
+Application: &ApplicationDefaults
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    LifecycleEndorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+    Endorsement:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Endorsement"
+  Capabilities:
+    <<: *ApplicationCapabilities
+
+Orderer: &OrdererDefaults
+  OrdererType: etcdraft
+  Addresses:
+    - orderer.pharmachain.ke:7050
+  EtcdRaft:
+    Consenters:
+      - Host: orderer.pharmachain.ke
+        Port: 7050
+        ClientTLSCert: organizations/ordererOrganizations/pharmachain.ke/orderers/orderer.pharmachain.ke/tls/server.crt
+        ServerTLSCert: organizations/ordererOrganizations/pharmachain.ke/orderers/orderer.pharmachain.ke/tls/server.crt
+  BatchTimeout: 2s
+  BatchSize:
+    MaxMessageCount: 10
+    AbsoluteMaxBytes: 99 MB
+    PreferredMaxBytes: 512 KB
+  Organizations:
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+    BlockValidation:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+
+Channel: &ChannelDefaults
+  Policies:
+    Readers:
+      Type: ImplicitMeta
+      Rule: "ANY Readers"
+    Writers:
+      Type: ImplicitMeta
+      Rule: "ANY Writers"
+    Admins:
+      Type: ImplicitMeta
+      Rule: "MAJORITY Admins"
+  Capabilities:
+    <<: *ChannelCapabilities
+
+Profiles:
+  PharmaKeChannel:
+    <<: *ChannelDefaults
+    Orderer:
+      <<: *OrdererDefaults
+      Organizations:
+        - *OrdererOrg
+      Capabilities: *OrdererCapabilities
+    Application:
+      <<: *ApplicationDefaults
+      Organizations:
+        - *DawaLife
+        - *KemsaSupply
+        - *GoodlifePharm
+        - *PpbRegulator
+      Capabilities: *ApplicationCapabilities

@@ -1,0 +1,19 @@
+version: '3.7'
+
+# Lightweight standalone Apache CouchDB 3.3.3 container for quick local testing
+# with the Node.js API Gateway (`server.ts`) without booting full Fabric peers.
+
+services:
+  couchdb:
+    container_name: pharmachain_couchdb
+    image: couchdb:3.3.3
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=adminpw
+    ports:
+      - 5984:5984
+    volumes:
+      - pharmachain_couchdb_data:/opt/couchdb/data
+
+volumes:
+  pharmachain_couchdb_data:

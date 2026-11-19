@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PDC_Universal_KEMSA_NationalProcurement",
+    "policy": "OR('UniversalCorpMSP.member', 'KemsaSupplyMSP.member', 'PpbRegulatorMSP.member')",
+    "requiredPeerCount": 1,
+    "maxPeerCount": 3,
+    "blockToLive": 0,
+    "memberOnlyRead": true,
+    "memberOnlyWrite": true,
+    "endorsementPolicy": {
+      "signaturePolicy": "OR('UniversalCorpMSP.member', 'KemsaSupplyMSP.member')"
+    }
+  },
+  {
+    "name": "PDC_Dawa_MEDS_WholesaleAgreement",
+    "policy": "OR('DawaLifeMSP.member', 'MedsLogisticsMSP.member', 'PpbRegulatorMSP.member')",
+    "requiredPeerCount": 1,
+    "maxPeerCount": 3,
+    "blockToLive": 0,
+    "memberOnlyRead": true,
+    "memberOnlyWrite": true,
+    "endorsementPolicy": {
+      "signaturePolicy": "OR('DawaLifeMSP.member', 'MedsLogisticsMSP.member')"
+    }
+  }
+]

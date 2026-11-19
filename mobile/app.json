@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "PharmaChain Kenya",
+    "slug": "pharmachain-kenya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#001F54"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "PharmaChain uses the camera to scan GS1 2D DataMatrix and QR codes on medicine packs."
+      }
+    },
+    "android": {
+      "permissions": ["android.permission.CAMERA"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow PharmaChain Kenya to access your camera to verify pharmaceutical batch QR codes."
+        }
+      ]
+    ]
+  }
+}

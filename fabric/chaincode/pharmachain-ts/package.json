@@ -1,0 +1,21 @@
+{
+  "name": "pharmachain-cc",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric TypeScript Smart Contract (Chaincode) for Kenyan Pharmaceutical Traceability (UN SDG 3)",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "fabric-chaincode-node start"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.5.4",
+    "fabric-shim": "^2.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
