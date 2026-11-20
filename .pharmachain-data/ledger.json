@@ -1,9 +1,9 @@
 {
-  "syncedAt": "2026-11-14T08:49:29.758Z",
+  "syncedAt": "2026-11-20T17:13:40.816Z",
   "channelId": "pharma-ke-channel",
   "blockCount": 31,
   "batchCount": 7,
-  "serverIntegrityHash": "c61699131bfeee8ad6e84eeea069edba3bd17b4dcfdebeb723e920a7d87a8d21",
+  "serverIntegrityHash": "38c2bc6a02af81e4118c437fdd4638d3ba091726b68ba0a17e13eac34539ce73",
   "worldState": {
     "KE-ACT-2026-001": {
       "batchNo": "KE-ACT-2026-001",
@@ -37,7 +37,7 @@
       "privateDataCollectionName": "PDC_Universal_KEMSA_NationalProcurement",
       "custodyHistory": [
         {
-          "txId": "tx_ef77ea82e8ff4bbdfc91",
+          "txId": "tx_1a50d5c47beac542e060",
           "blockIndex": 1,
           "timestamp": "2026-01-15T09:30:00.000Z",
           "action": "REGISTERED",
@@ -47,12 +47,12 @@
           "actorMspId": "UniversalCorpMSP",
           "quantity": 5000,
           "notes": "Manufactured and sealed at Club Rd, Kikuyu, Kiambu County. Exp: 2028-01-15.",
-          "signatureHex": "9feaba5f2f680e8ae3e7026da208e58ce4df72ba2a56b78a361e515912bcb5b10b9d8d6ec2323814fd144cc69a418e34d09bf9ae42fe84b4a44f9352c9ae6ab4",
+          "signatureHex": "55989e66079d9665fe34134e58bcaba506c9541066d6c7dcf2835955721c0ba9e1e533e223f90858396da420147d1a131f08d92a1c8f261b2f8f180c075f0012",
           "endorsements": [],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer')"
         },
         {
-          "txId": "tx_3d640fc732fd10f528e3",
+          "txId": "tx_4e6dd35e6dbe02900323",
           "blockIndex": 2,
           "timestamp": "2026-01-18T11:15:00.000Z",
           "action": "TRANSFERRED",
@@ -66,21 +66,21 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 5000,
           "notes": "Dispatched from Kikuyu WHO-PQ plant to KEMSA Embakasi Depot via Truck KDK-412P.",
-          "signatureHex": "87c67e611fcf10f908c97fcf9b914258a53f795e2f26350b40dee479e6c2771211108bda46f03a5a7438c950abd63b457aaa6aab972f59f6fc648b1d91a48da5",
+          "signatureHex": "07bae77e3f1db4f22052c2b531257ce5019fb26bca92d25005e259235653f2f783cfa4d69cb5303cc6ce1b4152e9bcc74cda40c6ba55f52987bdc946fb28ede0",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-01-18T11:15:00.000Z",
-              "signature": "736be7b4a91888c9e0708024562d11528a17957fced4b6611ceb053f94c7bcb4286d14cc2e8b526a35b22205420d60f7b7a73ffda85ba1dde8f4b21521f60c12",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "4d24d69a5c441d4e7f705e6e9e3047fc32d8b37125c7cf7df22e5dd601ed1a09b459fd1313caa3ebdc9d29a5a98ed6ca1f944873d7ca9f9383e5dc1e61ab03b5",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer', 'KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_36bf804f79b648efd574",
+          "txId": "tx_d6f38404b303a1ed87b8",
           "blockIndex": 3,
           "timestamp": "2026-01-19T14:20:00.000Z",
           "action": "RECEIVED",
@@ -94,12 +94,12 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 5000,
           "notes": "Received at KEMSA Embakasi Cold/Ambient Bay #4; tamper seals verified.",
-          "signatureHex": "85d91f8353776546b8a6da8adb1d1bf043e33047d23c6b11bc9ddbce6b296bbb5240020416a25cadac567e181c0370a615e78eefbf7ad914f36f4b4f53ddca42",
+          "signatureHex": "d7c0f5c297bded9da4c923ebc23e1263cb5c94785d68d1185f0ba0991c83870e7556a1bef1d8c9aeea5151a78e5ee012635229e73986ea72193c48035930ab4e",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_4f4a4c5b991da9d8c622",
+          "txId": "tx_ca06b73b4b9e341c0cd7",
           "blockIndex": 4,
           "timestamp": "2026-02-02T08:45:00.000Z",
           "action": "TRANSFERRED",
@@ -113,21 +113,21 @@
           "toOrgName": "Kenyatta National Hospital (KNH) Pharmacy",
           "quantity": 5000,
           "notes": "Allocated to Kenyatta National Hospital Outpatient Pharmacy requisition #KNH-882.",
-          "signatureHex": "3110e2e645fc75cfdf33967253958c316b22f7da756479a8b880edab32c22f2605bc21f884551649820abf47442436115ebd9f5de8bffd45b844ec96ec651c40",
+          "signatureHex": "e5a80eb1e6e1b14143da47710f4c0f56e0ce2b19a177a1d440c80111078382024f88a3a28f82fadb5bf8f4679e057606d22fe1ccc26b972f4db5c73738b85833",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-KNH",
               "endorserMspId": "KnhHospitalMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-02-02T08:45:00.000Z",
-              "signature": "2f2a55c4b62c24dcf770b3902c6024118a605000339553c72080cb0241002b007254508af1b0caa73c8a10e747179c05fddf79283c2a5568460edf5c79477429",
-              "publicKeyFingerprint": "ECDSA-P256:D449C5B3865601B8"
+              "signature": "671670d51cdb770d9db52aeeff5e5eb0df3bea7f8fb724349b39a0eb481b8e5f795503eb6c0a5a96ee070396d19dfbc6be2b6ee707a9d2315d932e95bfc37654",
+              "publicKeyFingerprint": "ECDSA-P256:3B66C48BCBA00D5A"
             }
           ],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer', 'KnhHospitalMSP.peer')"
         },
         {
-          "txId": "tx_23c8737dddc7992a8def",
+          "txId": "tx_3f7c1ee9d72021102dc1",
           "blockIndex": 5,
           "timestamp": "2026-02-02T15:10:00.000Z",
           "action": "RECEIVED",
@@ -141,12 +141,12 @@
           "toOrgName": "Kenyatta National Hospital (KNH) Pharmacy",
           "quantity": 5000,
           "notes": "Verified by Chief Pharmacist at KNH Upper Hill; QR & batch seal matched.",
-          "signatureHex": "dba164512dd52496512a7057bf8547f797098fb199df4c6f67ad5427ffbb5b8c7cef98bacf05a7e959b3250e03905abeb13733177b8270137170d2380815a287",
+          "signatureHex": "44afef48202ed38675765d488e7e4adf2a4284010ce23eb963e2ffeb1cc01327cb9a9e1cd1f4a641fe3fa8609a0f03122b308c19fe631527d0bebd2424fef5cb",
           "endorsements": [],
           "endorsementPolicy": "AND('KnhHospitalMSP.peer')"
         },
         {
-          "txId": "tx_f0a3a3d02151ee5bfc85",
+          "txId": "tx_bf24905930bb1cb30dd2",
           "blockIndex": 6,
           "timestamp": "2026-02-14T16:30:00.000Z",
           "action": "DISPENSED",
@@ -156,7 +156,7 @@
           "actorMspId": "KnhHospitalMSP",
           "quantity": 350,
           "notes": "Outpatient Acute Malaria Clinic — 350 packs dispensed under NHIF/SHIF coverage.",
-          "signatureHex": "0d4673defdb8295a8aa68c59c8115f3e1bab9c084dae4c7cc79e25c55a3bc08f7674a11598bc4332a77dbefe3dd7b9b2f48d7f58fd23a94d90f528fb39e10c9b",
+          "signatureHex": "cb5e40167e332fcaf33d659707712ea004d72561b233429def2416382477029f7b51706788ede09539eecfc5fa21b9e64b4fb8a760ae56e8ffa6865484967b22",
           "endorsements": [],
           "endorsementPolicy": "AND('KnhHospitalMSP.peer')"
         }
@@ -194,7 +194,7 @@
       "privateDataCollectionName": "PDC_Dawa_MEDS_WholesaleAgreement",
       "custodyHistory": [
         {
-          "txId": "tx_0ca495fc518c5b05c9b4",
+          "txId": "tx_b784efff779d8378de47",
           "blockIndex": 7,
           "timestamp": "2026-02-01T10:00:00.000Z",
           "action": "REGISTERED",
@@ -204,12 +204,12 @@
           "actorMspId": "DawaLifeMSP",
           "quantity": 2000,
           "notes": "Manufactured and sealed at Ruaraka Industrial Area, Nairobi. Exp: 2028-08-01.",
-          "signatureHex": "ba9186a2aae1defacbbee7d9a86a8fe95486d109277a7806e43699b9d169f8a8e58ad1013244abc165642b61f0e5f7717fb1579797ee7eed81e3a3b2750db139",
+          "signatureHex": "1d279f17c3b21a5e829a41193df944d9d1df30813619579875067c2f5b92141a21d275f7afb29aca6b9de8573a6207c9db95aeda30f08ff207f6ca7c06896cc4",
           "endorsements": [],
           "endorsementPolicy": "AND('DawaLifeMSP.peer')"
         },
         {
-          "txId": "tx_33b2f02e620abf8d30af",
+          "txId": "tx_602b0c7a474e2e0f9346",
           "blockIndex": 8,
           "timestamp": "2026-02-05T09:20:00.000Z",
           "action": "TRANSFERRED",
@@ -223,21 +223,21 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 2000,
           "notes": "Delivered from Ruaraka plant to MEDS Mombasa Rd distribution center.",
-          "signatureHex": "6e120c122d74b1ace5917788e2e4439bea56aaf02199e2025722eba6ded18d5d4107b7d9f22f8d6e187b66082a8942b57f5f65fbcdb9e92296005bdac38d8174",
+          "signatureHex": "92a2905f600cd5f79e7d7c449adb2fec718a602969f93f4d56abeada0ce14c74573d931c2a7f02e3f543a6e05e624d30f9c0a68b4db0f155e71f113edab0a8bb",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-05T09:20:00.000Z",
-              "signature": "3365b34fc225b4448a3370319262703930a98053ab9d86f2f43381d33e8244e6b20e8332a5a4f048af2ec22ceb22270f2ba8f0db8b67fed45de5006687dc7720",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "be720ab6ff45cbba5d2a035b909b7368e1d7fd1f3bc5474a2f1faabb04593033fd2cf12530646b89c90c6640ee52075f81fa2b7ca8264705a0ecaa866f9c796d",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('DawaLifeMSP.peer', 'MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_f67132ba0d53575e6af8",
+          "txId": "tx_d782c72e5161a6d802a7",
           "blockIndex": 9,
           "timestamp": "2026-02-05T14:00:00.000Z",
           "action": "RECEIVED",
@@ -251,12 +251,12 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 2000,
           "notes": "Accepted into MEDS QA warehouse after batch certificate inspection.",
-          "signatureHex": "7cc17849aa6995c32642a1e2058fbdbff5717418b5d51568f08db998118289cb1d6494c85e246b72d35c0d7680624b0622c0aa66dd3dff0c11185afdabe03b97",
+          "signatureHex": "3c71cd9ace8463d414f89138eca11827add9dece22492e163051584daf6cecbfd6de8613a8b2ae94705ae358f4d926bd009dbeabb5ae618c774b70886c77381c",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_e11826ae53411acf9152",
+          "txId": "tx_321dbc5c569d58c3fca8",
           "blockIndex": 10,
           "timestamp": "2026-02-12T11:00:00.000Z",
           "action": "TRANSFERRED",
@@ -270,21 +270,21 @@
           "toOrgName": "Goodlife Pharmacy — Westlands",
           "quantity": 2000,
           "notes": "Scheduled retail pharmacy replenishment to Goodlife Westlands Square.",
-          "signatureHex": "964d81d9e6edf602c501bc8a6bb3e86c360f428dc755f7cf2cf99926a3b345c1386a1a83fb92d313f80d9f64f77495e6e89824a61018e641362af2d884c4c27a",
+          "signatureHex": "acf13373316afcfdd5976c063853cf438b7a55ffb61c2eb62651aabc99fbb413efc4160f999294a9cd15474638b6034247e8c15aca6d3b59822c4c88ca57c54b",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-02-12T11:00:00.000Z",
-              "signature": "428a94e866cf14dd879fda0eee43341ef927a07071915adc4e39cb932ab2f3c223525dd7c607ac99d92ca080a59a4980ee60f9e13fabbdddcab4f8b815358b76",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "f42fa7d062481d3f7fd75ff19942cb1106da1aac545f797f8fb1c37e76c9283b9ddc24c39876071b6c61c3597cc574abcb7253fe47649911b5ec44f68a58e8e7",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer', 'GoodlifePharmMSP.peer')"
         },
         {
-          "txId": "tx_637e98238fd72c1efa9a",
+          "txId": "tx_482bc01d4af2a6c96a7d",
           "blockIndex": 11,
           "timestamp": "2026-02-12T16:45:00.000Z",
           "action": "RECEIVED",
@@ -298,12 +298,12 @@
           "toOrgName": "Goodlife Pharmacy — Westlands",
           "quantity": 2000,
           "notes": "Logged into Goodlife Westlands inventory via barcode scanner.",
-          "signatureHex": "34a11f33f75a68fca555ca1cba965ab941f5544161eb2b664695eb8042394347a024acb4b54ecea6cc1286240bd8934d96ceac03df526b4932595a8972e520fd",
+          "signatureHex": "fe35fc50f025cb1e8e02f2b1187a38a382c99d65e19b039e8cba47b10fd7b5b4b1307e95d112e591f45e25009e3e2e3df245e25ecbec0f2cd646a9bce0dad406",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         },
         {
-          "txId": "tx_4a3858635c569ef33543",
+          "txId": "tx_4cc05973d15cab66635c",
           "blockIndex": 12,
           "timestamp": "2026-02-20T13:15:00.000Z",
           "action": "DISPENSED",
@@ -313,7 +313,7 @@
           "actorMspId": "GoodlifePharmMSP",
           "quantity": 120,
           "notes": "Verified prescription dispensing at Westlands retail counter (120 packs).",
-          "signatureHex": "adf4743f1ab4cd3a3f84a9f1cda40082a274ba709b078bb8f9be0611778b15438e5f21ab688d6b6cf402be9e470112ca1c00e580b7ae6cbdaba51777e26a87fa",
+          "signatureHex": "a243d2573a1b81ce65e6f0d83d0fbc88088eb4b79ee6da2776dbb295632053b92f81d3ce1f60e68db620281dc01cb8c093fc1b4685410097efebf541db5df60b",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         }
@@ -349,7 +349,7 @@
       "lastUpdated": "2026-03-01T09:00:00.000Z",
       "custodyHistory": [
         {
-          "txId": "tx_b6e99da8472055f90b4a",
+          "txId": "tx_d37c63b8e92f9dab3769",
           "blockIndex": 13,
           "timestamp": "2026-02-10T08:30:00.000Z",
           "action": "REGISTERED",
@@ -359,12 +359,12 @@
           "actorMspId": "CosmosPharmaMSP",
           "quantity": 3200,
           "notes": "Manufactured and sealed at Rangwe Rd, Industrial Area, Nairobi. Exp: 2029-02-10.",
-          "signatureHex": "9a7e464ff4b47e0b2140cfdb8fa649af352a9ba5616215487c8260b4a73a65905165a1b293c6efc5dd7ac5d922990b59dac8ab023987fedc0c6b441ccdb89388",
+          "signatureHex": "71c25ede93a9947c5ef6b32fa0e69d76a174d0f41ed7bdfce337d8579590f70c8e68a99ea09828e7ded9744b1a87dac3b33d095bf9527c8c2505ed9809bf8e31",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         },
         {
-          "txId": "tx_c319e7365f292946a7b2",
+          "txId": "tx_9b9c44d3e65963e1f560",
           "blockIndex": 14,
           "timestamp": "2026-02-15T10:00:00.000Z",
           "action": "TRANSFERRED",
@@ -378,21 +378,21 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 3200,
           "notes": "Transferred from Cosmos Rangwe Rd plant to KEMSA Embakasi.",
-          "signatureHex": "fa03de3a112f781c00fd2f16aadbcdc0cadb4d7356be853486e0bcf35dbe073c60d7b0969776ca4518cb4ee2263f820744c5a9572fddd491275e20b530a5a184",
+          "signatureHex": "559f1f3b02647fe53ba352358edb13c3d270cd873eb23819efe75503d1f4e3e3d84df1d05c913c2a325199de3f213b03ff7f46c0d31807bd7df0290adb3a345c",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-15T10:00:00.000Z",
-              "signature": "5ae95ad0b6a6d6ad9961840d2855134da650e0610eb7f689039c9f0c054db5079c1846a0687097e02cf14863365fbe81c340ad2b053d098f9a343012548b377c",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "cade83b3f8269a12f493aff041b70b95b37db2c46dbad4425d658a0b8e6a7e4ff8ba3c29034c3f9e9528c5f0353a992d8920623471adf1e152181515b3f18727",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_a7065d54b14e793d8706",
+          "txId": "tx_c5110a1f4bc1140cf10c",
           "blockIndex": 15,
           "timestamp": "2026-02-15T15:30:00.000Z",
           "action": "RECEIVED",
@@ -406,12 +406,12 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 3200,
           "notes": "Received at KEMSA chronic care warehouse section.",
-          "signatureHex": "289a3adb9e6970a9cf4dbd5080a6671cdf39f5f00ecc373c9f54330cdb1f1b03cd9c64ae0bd76106af3e839a3fdddd0fe1364ababccf545768b3dcc34fdc4bf1",
+          "signatureHex": "94301be9bf2227905774ce67409dcdeabfb76cb9a87e604ccc5c4fb20e36ab23b01fdf130edd8831335de3849f4c313c553e6bf4782c23527728ea546fcebded",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_628dbff134a790adafd7",
+          "txId": "tx_5a423c1acd153cbcdb53",
           "blockIndex": 16,
           "timestamp": "2026-03-01T09:00:00.000Z",
           "action": "TRANSFERRED",
@@ -425,15 +425,15 @@
           "toOrgName": "Goodlife Pharmacy — Westlands",
           "quantity": 3200,
           "notes": "In-transit dispatch from KEMSA Embakasi to Goodlife Pharmacy Westlands.",
-          "signatureHex": "993076195fc98b4a727e1ef8f3ab85fe79f6a02a537dd595c5c7534d3c61b790751ff4df99d5529aeecc7f7c620a9a43c91fb28aa86de0103c5be1dd3387c256",
+          "signatureHex": "488fd8115a2c509ac081dfd078a3e3bac0d5e7cf275c2092a79a433aa801dfb3dc4766e69921a177e3081d6b4a5e119a8b893db2839fbb63e07e1f6d490f986d",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-03-01T09:00:00.000Z",
-              "signature": "7a6c36a60a46d6685d80845d006f8a44f8c164ea1cfb48a09885a56c616c49132bf943a88b1ff535998e080f426b1cacadeb3b6f13121ee6e8016c481587bebd",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "ffb8b233e896c18d0d9cdb2b7d5a1f92cee4267cea0e141438988e6b8ad82148104c57a66298ae999210f8a399bd0d96b86d3fbc5507419b54c24ad28bb30fae",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer', 'GoodlifePharmMSP.peer')"
@@ -470,7 +470,7 @@
       "lastUpdated": "2026-03-05T11:20:00.000Z",
       "custodyHistory": [
         {
-          "txId": "tx_0897024763dd7dca378d",
+          "txId": "tx_e994194b063a31b9daed",
           "blockIndex": 17,
           "timestamp": "2026-03-05T11:20:00.000Z",
           "action": "REGISTERED",
@@ -480,7 +480,7 @@
           "actorMspId": "DawaLifeMSP",
           "quantity": 4500,
           "notes": "Manufactured and sealed at Ruaraka Industrial Area, Nairobi. Exp: 2029-03-05.",
-          "signatureHex": "54d43fdeeeb1bdc995ae8ec3561ef2f47a3980494c7ee818788fa7eed6ccaabd23174a9ee50c7bd1435566aca335d58c851e1463671937d41eccc8242ba1abc7",
+          "signatureHex": "40f5c91015f892bdb8693e5ec748c9fc95006d80c9c404487ec774576d874ed191dfb6cc4ee8f19f9579624ad43d770d7ae25f26af8201cc7de14e8d63cf992d",
           "endorsements": [],
           "endorsementPolicy": "AND('DawaLifeMSP.peer')"
         }
@@ -516,7 +516,7 @@
       "lastUpdated": "2026-02-21T09:10:00.000Z",
       "custodyHistory": [
         {
-          "txId": "tx_1337eb44b6ba8cd0d873",
+          "txId": "tx_8b69905b7eaaa72dc09d",
           "blockIndex": 18,
           "timestamp": "2026-02-18T08:15:00.000Z",
           "action": "REGISTERED",
@@ -526,12 +526,12 @@
           "actorMspId": "CosmosPharmaMSP",
           "quantity": 1200,
           "notes": "Manufactured and sealed at Rangwe Rd, Industrial Area, Nairobi. Exp: 2027-08-18.",
-          "signatureHex": "b2deeeb27f9692e48e50ebfd2486870c6ae4bae21bd4fae8ae080f0414e0a4910b4493f27025550025ab9080bbda2f95d126466e54ab124f82716a74480fadfb",
+          "signatureHex": "ce087541a97355b7d5fbc97d2d852567bb51f89bf8d7305960ad70159b54ac5eb246e56be2f8822900185e500b4c8584369c0ce8987479de84bc0b47fa12b621",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         },
         {
-          "txId": "tx_df62c30e56df20d804e8",
+          "txId": "tx_f4230f47fe6d35d508ab",
           "blockIndex": 19,
           "timestamp": "2026-02-19T10:00:00.000Z",
           "action": "TRANSFERRED",
@@ -545,21 +545,21 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 1200,
           "notes": "Refrigerated van transfer to MEDS Cold Storage.",
-          "signatureHex": "693eb5010efd04b5be986891a536378575574822ac3b496c80714cfc9cf179d3f6cf0c0a49b2b58eed5aa5664574d33eb79ebd28f3e722a1facfdf214e09af33",
+          "signatureHex": "7c76d44ea8974ed99312f980acf416869b98405ed5b1afb8fdfb4be7dfe25bbaefd31ee22258a60bd2ee04e7fbee7ca8ff1a7ca63c265036f6cdae56f1578787",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-19T10:00:00.000Z",
-              "signature": "a6817d7915203ad507a6dab1950367d4e78411319899980d8de895e747253c2dfcbf1063ca33de01e5e780e4c4d5c10e039c5d2a8d68daaed0b48825d9c083ec",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "06371ec71a9276cba6c836b963289c8c8b87038622d2f4fc39149da205ce2ce4f05b31036a2b78f7673ac408ed1e7e4a148c45e815a7b6169eeec074224829bb",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_0b471f032528c6f57772",
+          "txId": "tx_a4907991f61ada4bb6cb",
           "blockIndex": 20,
           "timestamp": "2026-02-19T14:40:00.000Z",
           "action": "RECEIVED",
@@ -573,12 +573,12 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 1200,
           "notes": "Placed in MEDS Cold Room B; IoT data logger flagged brief 9.4°C spike.",
-          "signatureHex": "2211169d59d4a0c727019c7f3dbf25a53e1c10d2683b9075be917fd167787e95c44d2c5de4ef2fbd4b5891dd6dde0e4b1470c35ab31b95087585dd8d79497848",
+          "signatureHex": "788a7bb2dd83db91f512a2e19ae834502b95dd65072d6c427f68671f7d7630b27f4503c0f4e176c8255250c0704f44e2f1d19be966a5d489664a58c0c0a62425",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_233797b4e1f7012ad238",
+          "txId": "tx_cc22d26418aea06f7d72",
           "blockIndex": 21,
           "timestamp": "2026-02-21T09:10:00.000Z",
           "action": "FLAGGED",
@@ -587,7 +587,7 @@
           "actorRole": "Regulator",
           "actorMspId": "PpbRegulatorMSP",
           "notes": "Cold-chain IoT excursion (+9.4°C for 45 mins on Mombasa Rd transit) — potency assay required before pharmacy release.",
-          "signatureHex": "9f0f7f91c5ac1a6453facbabb5d91d36405d77a9c7adef0e5d99d92d1abcad56bddec51730c830d725c375d57a72a4325daaa65a2ae5dcdb0a34d66396ec4e3d",
+          "signatureHex": "a14b73560173555c5845b512ce80a37188a07897379fdb9a31d376127df84a517634ed75a1af9e45d684a71a34d51f7abcb6e4c31efbb9dd46ca014655c6405d",
           "endorsements": [],
           "endorsementPolicy": "AND('PpbRegulatorMSP.regulator')"
         }
@@ -623,7 +623,7 @@
       "lastUpdated": "2023-10-11T15:00:00.000Z",
       "custodyHistory": [
         {
-          "txId": "tx_49eb4e3c85102f21352e",
+          "txId": "tx_235e38651a180cacaeeb",
           "blockIndex": 22,
           "timestamp": "2023-08-16T10:00:00.000Z",
           "action": "REGISTERED",
@@ -633,12 +633,12 @@
           "actorMspId": "CosmosPharmaMSP",
           "quantity": 800,
           "notes": "Manufactured and sealed at Rangwe Rd, Industrial Area, Nairobi. Exp: 2025-08-15.",
-          "signatureHex": "d335d7da539b8f9f247882248b7522aec1f1bb778455ccbd2863125a6a890ff0acc0e2fdf815aa441f5d56620d74051f9a86f25175e41b10cd17cb15b0922247",
+          "signatureHex": "e75af268b48fe626601f26aca6fed4f7cd7aff14456047fc920b33843e79189de751a778034b16741d480d38725a131a5dd240afc26ebe95078f6703e816b7a8",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         },
         {
-          "txId": "tx_2805f6ed8264dc6afa75",
+          "txId": "tx_88598eb3b0b93e1fe2ed",
           "blockIndex": 23,
           "timestamp": "2023-09-01T09:00:00.000Z",
           "action": "TRANSFERRED",
@@ -652,21 +652,21 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 800,
           "notes": "Standard wholesale delivery to MEDS.",
-          "signatureHex": "307b3bd9274296401b641ef2a282f8fa4c2079c076138e6e1ac63bc24f4ef54407bf557e738f17fd9fba504ac0cf7eabc7a87c07f6576665408832377aba792f",
+          "signatureHex": "570a090a08b62e3d5fe4fc2f81759cfa4379a61243d3d957d60988f9eb5447f53412676e35e497ccd5601ace87d3342546eadd095d088451e610eb7a998da6f9",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2023-09-01T09:00:00.000Z",
-              "signature": "7e00255943e135a8d2c30286ecc6d854464701581411e94000faf2f6f8b0b1d90b9c8b964a67aa8e3f0d9295a93d20bc81ba5bb2edd8c621f4f93a69be81d13c",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "3c8fe097065e5cc8f6dc76290a70d9dbbc31abcf2c69ff716e48d08a2c890f5dcad15d1e991ea7875c9ec112015808d8f8d914657de30f2f27a673fca9f8a689",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_8d0aab600cae10b67189",
+          "txId": "tx_ddd2e7b1fde7d7f1b624",
           "blockIndex": 24,
           "timestamp": "2023-09-02T11:30:00.000Z",
           "action": "RECEIVED",
@@ -680,12 +680,12 @@
           "toOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
           "quantity": 800,
           "notes": "Received in good condition at MEDS.",
-          "signatureHex": "cb07f86caf23ad856fef53d300179728784a92e1a540619965bac2a0be23db5c5ccb7c0607f6ef26493399a7bf6992ab1865ece1753dc1e1a1bbd96462e2e34b",
+          "signatureHex": "f87fe5907843dc2dfa275079f5af20b3f02fee808076df91e3dbfbf66ef25b35a33f1e00bbd404f357b7a2a3d86636c0373f84d79ffde8c3a29c9675ffc76633",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         },
         {
-          "txId": "tx_5d240bf80122a5dbec84",
+          "txId": "tx_ac8950617504bf9c376c",
           "blockIndex": 25,
           "timestamp": "2023-10-10T10:00:00.000Z",
           "action": "TRANSFERRED",
@@ -699,21 +699,21 @@
           "toOrgName": "Goodlife Pharmacy — Westlands",
           "quantity": 800,
           "notes": "Transferred to Goodlife Pharmacy Westlands.",
-          "signatureHex": "574ba38b07e47f5a1cfd6d82f8fa8f4b684f2aeff0bbba1c9e99da7b8eb941db30265029ea27525c259b7092c7bbca73420726087705a23209f2eb7b02bdb826",
+          "signatureHex": "e706d28d4326c834da57ad0838854d7c91fcc54e707e0776859ab30eade4e0296be8e0a2100ed7c34e468b92f01cb25b85eb1c9aa61974c61386f31f6181e3e9",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2023-10-10T10:00:00.000Z",
-              "signature": "1644e0e24aa6a2468350a1c4ef795276e10c479254044b8d95b4a143e49fbcd30f7a3cf43701aaac7f948ef9a39547626b7b8b7518f28db047adb5ec2730f09c",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "6c3eb02da9cba912c3d287b61a7fad9151fe4b1beaebd0f588ce48327377de5864f121b3d2459efe26629b8f6a04a5d7fab8859285c3175a5202c6c42681a4f7",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer', 'GoodlifePharmMSP.peer')"
         },
         {
-          "txId": "tx_d3dc597c274fe3db300e",
+          "txId": "tx_f72b9e2e12c3d6c95c45",
           "blockIndex": 26,
           "timestamp": "2023-10-11T15:00:00.000Z",
           "action": "RECEIVED",
@@ -727,7 +727,7 @@
           "toOrgName": "Goodlife Pharmacy — Westlands",
           "quantity": 800,
           "notes": "Received at Goodlife Westlands; remaining stock now past 2025-08-15 expiry date.",
-          "signatureHex": "643e3450e6da99e4f654fd7921d26217e2d8cde6c1f2cc3d714c7c3734ba860274a862223a61cd66ecf53c51a24397383fbd86c2def78fea32d633b344e01ff4",
+          "signatureHex": "5a8907a3f90a93853e129cd8dad08830580c6750fb51d7c283f3ee01cf3a09c3cdf091a30589583f738a83fe603b9060c9fd925d422a4382f1b2a3893be04e10",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         }
@@ -763,7 +763,7 @@
       "lastUpdated": "2026-02-28T11:00:00.000Z",
       "custodyHistory": [
         {
-          "txId": "tx_9d2c344ddb2c91f64450",
+          "txId": "tx_d50f683f4172167fb332",
           "blockIndex": 27,
           "timestamp": "2026-01-20T09:00:00.000Z",
           "action": "REGISTERED",
@@ -773,12 +773,12 @@
           "actorMspId": "UniversalCorpMSP",
           "quantity": 6000,
           "notes": "Manufactured and sealed at Club Rd, Kikuyu, Kiambu County. Exp: 2028-01-20.",
-          "signatureHex": "a66e7802e2cf49ab71a4f4ea1a9f8a5b6a8f6d5b45c0c9dfadf01373ab4a41fd5d4f5022dc58c97942fdcdbec7037dbf81367f2bf22faed2d422b2c7edeb30e9",
+          "signatureHex": "cdffb41677d95db9c3db6441640fd476c9b01b1961013d81c6af025161f7a8d1a0429b990d39c4a3f523cb7d131695c1b963779ea716ffab98b83865bfbff314",
           "endorsements": [],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer')"
         },
         {
-          "txId": "tx_2f86db8d3ce22948beaa",
+          "txId": "tx_c951fa4dc3a138f8937c",
           "blockIndex": 28,
           "timestamp": "2026-01-25T10:30:00.000Z",
           "action": "TRANSFERRED",
@@ -792,21 +792,21 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 6000,
           "notes": "Bulk pediatric consignment to KEMSA Embakasi Depot.",
-          "signatureHex": "098bac250956ebc34c97b6e2c6467d53e4ff7048434d05e99f23a2e4dff6cdc177b2bc9fb94b0904d7b5bdf96dd31ad207e00118ee161cceb739d86b76bbbbe4",
+          "signatureHex": "d64d8f2150a8ae844dd7d6c4cc89c6591f2b54700a49855e6a59e50739cbd3032a62cfaf78ef7ec183148fb70d4730c55330d1dd5df16d637535b51821363182",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-01-25T10:30:00.000Z",
-              "signature": "2c391c8d5abd82b00c99670778c0ab876470b6c6d9e1c5ee7bf1083c6501be282ac362e11efd1d1a4032605a65ce34e98e9e6e6d5f9c6212daf10e75f720c53a",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "d5701fcb8d65dc75811f8f619bab603aa0fa76c9deb4eda0ac56ffcebc37b3adc61e8656c9a915f81d07bab64eeafc2f7dbaffbe412a0e718ed780c1aa34513e",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer', 'KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_36e7d757f23b64b45cd6",
+          "txId": "tx_1c808f7baf3ce71fb9ba",
           "blockIndex": 29,
           "timestamp": "2026-01-26T13:00:00.000Z",
           "action": "RECEIVED",
@@ -820,12 +820,12 @@
           "toOrgName": "KEMSA (Kenya Medical Supplies Authority)",
           "quantity": 6000,
           "notes": "Received at KEMSA Embakasi; post-market surveillance sample sent to NQCL.",
-          "signatureHex": "e6b403d5aac06fcea9830b784eabaceb28907b8dba6ea2080397699e8081d273b541d4bb5a6dea9b143043829026910301fce91a4cf4678d5fe49a3f7ba8df5b",
+          "signatureHex": "8dc3390987fa6f52e73c8667786ede275116ad45ea03de97292b37557f38dac9d221dd5c5d76ff798af91c178886608e2e39b2ede0f53ab13387def755b8c7f1",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         },
         {
-          "txId": "tx_40075496d42e6483d3eb",
+          "txId": "tx_9887191fbe138c690d80",
           "blockIndex": 30,
           "timestamp": "2026-02-28T11:00:00.000Z",
           "action": "RECALLED",
@@ -834,7 +834,7 @@
           "actorRole": "Regulator",
           "actorMspId": "PpbRegulatorMSP",
           "notes": "Class I Statutory Recall (PPB Rapid Alert #KE-RA-2026-14): National Quality Control Laboratory (NQCL) detected failed dissolution profile & diethylene glycol trace impurity.",
-          "signatureHex": "060e6384098fb6e83cf7a1d84677d5561e7e544093e3624aabb1dea9799f56f2b86f0cb3c2b1792799d89a2afd2c62a36017b65309af54cffae536f68daace53",
+          "signatureHex": "3e03ea068a5ec3339accae1e3477f0b6a527a14bcc765bfc5a7bcdca0749e96842fd458d0d749ba85fabbff023db14bb521edfe933d0e765e644a142501a3d51",
           "endorsements": [],
           "endorsementPolicy": "AND('PpbRegulatorMSP.regulator')"
         }
@@ -865,25 +865,25 @@
             "endorsementPolicyDefaults": "MAJORITY(EndorsingPeers)"
           },
           "summary": "Channel Genesis Block initialized by Pharmacy and Poisons Board (PPB Kenya) with MSP consortium policies.",
-          "signature": "cd122d6b882f54a6768eefcb2a79a4a4decc3f8e50afe316f56fb5746231d7a9c4807492f8bc9eeeea812ea6e76b3b046e5e5beb28e87867b5623528bca2487b",
-          "signerPublicKeyFingerprint": "ECDSA-P256:07DD9704A33A8ED0",
+          "signature": "b015bc6da10b86dc989e1133c017e22fa5b8963b3b3e2fd46973e1a2df86292b3a3cae03210bf1ab6d95b5688102edccd13cbfdb494d43599f247eefb9f8e840",
+          "signerPublicKeyFingerprint": "ECDSA-P256:8F67D5162EFF297D",
           "endorsements": [],
           "endorsementPolicy": "OR('PpbRegulatorMSP.admin')"
         }
       ],
       "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
-      "merkleRoot": "47d8093fc06d5a7c0b480239f6f1173706c673ee0546dd3f401b9ab322ef379c",
+      "merkleRoot": "7a49717cf28c240c4bd71005f23888763ebf87d775fea68ab8a53f23cfcb548b",
       "creatingOrgId": "REG-PPB",
       "creatingOrgName": "Pharmacy and Poisons Board (PPB Kenya)",
       "creatingOrgMsp": "PpbRegulatorMSP",
-      "hash": "02bdc1e60ae3c5df6b276decfa4927880f0419bc2dbd08102bd0c5e059185d76"
+      "hash": "debf5e6f9ec3c910eac2be468f1be00a9b3ec7d0fe12dcd5ca909a690851c3de"
     },
     {
       "index": 1,
       "timestamp": "2026-01-15T09:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_ef77ea82e8ff4bbdfc91",
+          "txId": "tx_1a50d5c47beac542e060",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -918,25 +918,25 @@
           },
           "privateDataHash": "c437f5619d6102987bbebdd5d90ad934a5f6b87d434c371bc83b9a414a9f5824",
           "privateDataCollectionName": "PDC_Universal_KEMSA_NationalProcurement",
-          "signature": "9feaba5f2f680e8ae3e7026da208e58ce4df72ba2a56b78a361e515912bcb5b10b9d8d6ec2323814fd144cc69a418e34d09bf9ae42fe84b4a44f9352c9ae6ab4",
-          "signerPublicKeyFingerprint": "ECDSA-P256:40274E124C4C57AA",
+          "signature": "55989e66079d9665fe34134e58bcaba506c9541066d6c7dcf2835955721c0ba9e1e533e223f90858396da420147d1a131f08d92a1c8f261b2f8f180c075f0012",
+          "signerPublicKeyFingerprint": "ECDSA-P256:F39BC5A979F021BC",
           "endorsements": [],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer')"
         }
       ],
-      "previousHash": "02bdc1e60ae3c5df6b276decfa4927880f0419bc2dbd08102bd0c5e059185d76",
-      "merkleRoot": "0950d74fe08ac8a18e962c9e37b48a865f476001dd1ea338666a85389d58bad8",
+      "previousHash": "debf5e6f9ec3c910eac2be468f1be00a9b3ec7d0fe12dcd5ca909a690851c3de",
+      "merkleRoot": "f94ee4c37c8eaec37769e03e1b37fc0e1b7c7abd60f36c86f9da3cd64e3319cf",
       "creatingOrgId": "MFG-UNIVERSAL",
       "creatingOrgName": "Universal Corporation Ltd",
       "creatingOrgMsp": "UniversalCorpMSP",
-      "hash": "c17cfba3a3e602b2c4f010cf51ca34086cb03be7ce5d824ecb8621be346339a6"
+      "hash": "c9392e83fba6e892a228f2ee9a5d05de55a0eadaf084142f460704333c3cf467"
     },
     {
       "index": 2,
       "timestamp": "2026-01-18T11:15:00.000Z",
       "transactions": [
         {
-          "txId": "tx_3d640fc732fd10f528e3",
+          "txId": "tx_4e6dd35e6dbe02900323",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -975,34 +975,34 @@
           },
           "privateDataHash": "c437f5619d6102987bbebdd5d90ad934a5f6b87d434c371bc83b9a414a9f5824",
           "privateDataCollectionName": "PDC_Universal_KEMSA_NationalProcurement",
-          "signature": "87c67e611fcf10f908c97fcf9b914258a53f795e2f26350b40dee479e6c2771211108bda46f03a5a7438c950abd63b457aaa6aab972f59f6fc648b1d91a48da5",
-          "signerPublicKeyFingerprint": "ECDSA-P256:40274E124C4C57AA",
+          "signature": "07bae77e3f1db4f22052c2b531257ce5019fb26bca92d25005e259235653f2f783cfa4d69cb5303cc6ce1b4152e9bcc74cda40c6ba55f52987bdc946fb28ede0",
+          "signerPublicKeyFingerprint": "ECDSA-P256:F39BC5A979F021BC",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-01-18T11:15:00.000Z",
-              "signature": "736be7b4a91888c9e0708024562d11528a17957fced4b6611ceb053f94c7bcb4286d14cc2e8b526a35b22205420d60f7b7a73ffda85ba1dde8f4b21521f60c12",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "4d24d69a5c441d4e7f705e6e9e3047fc32d8b37125c7cf7df22e5dd601ed1a09b459fd1313caa3ebdc9d29a5a98ed6ca1f944873d7ca9f9383e5dc1e61ab03b5",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer', 'KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "c17cfba3a3e602b2c4f010cf51ca34086cb03be7ce5d824ecb8621be346339a6",
-      "merkleRoot": "dfb5856662de1a9cf552d58217fc306d104a6712c353f0d8e306009f69f57cc8",
+      "previousHash": "c9392e83fba6e892a228f2ee9a5d05de55a0eadaf084142f460704333c3cf467",
+      "merkleRoot": "1a421f4d1de03e15a680fd1937a6280c55a16eb0938058519115af9c7780a3a8",
       "creatingOrgId": "MFG-UNIVERSAL",
       "creatingOrgName": "Universal Corporation Ltd",
       "creatingOrgMsp": "UniversalCorpMSP",
-      "hash": "df41ab79d24b426022ae062110ca71bf03c5fea7aa8ab4b2465af1a22fc14d4f"
+      "hash": "09acb47eb1303da2717d78b75b8cd177d7145c41595bdcea8d8c1afd66c93022"
     },
     {
       "index": 3,
       "timestamp": "2026-01-19T14:20:00.000Z",
       "transactions": [
         {
-          "txId": "tx_36bf804f79b648efd574",
+          "txId": "tx_d6f38404b303a1ed87b8",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -1038,25 +1038,25 @@
               }
             ]
           },
-          "signature": "85d91f8353776546b8a6da8adb1d1bf043e33047d23c6b11bc9ddbce6b296bbb5240020416a25cadac567e181c0370a615e78eefbf7ad914f36f4b4f53ddca42",
-          "signerPublicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9",
+          "signature": "d7c0f5c297bded9da4c923ebc23e1263cb5c94785d68d1185f0ba0991c83870e7556a1bef1d8c9aeea5151a78e5ee012635229e73986ea72193c48035930ab4e",
+          "signerPublicKeyFingerprint": "ECDSA-P256:6A5B150261F96723",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "df41ab79d24b426022ae062110ca71bf03c5fea7aa8ab4b2465af1a22fc14d4f",
-      "merkleRoot": "31034cc6c0864d5c253933b4edef8a9bc8cdc82c50e4d664df30da71fce1abc2",
+      "previousHash": "09acb47eb1303da2717d78b75b8cd177d7145c41595bdcea8d8c1afd66c93022",
+      "merkleRoot": "57b100fc27b6ddad17900872898462f2f902f57baf9199d2ec07a261d677b555",
       "creatingOrgId": "DIST-KEMSA",
       "creatingOrgName": "KEMSA (Kenya Medical Supplies Authority)",
       "creatingOrgMsp": "KemsaSupplyMSP",
-      "hash": "ce78cb119b7369387925eb4e4af4ac541a7916f63cd78b28fefcff634a0f6f6f"
+      "hash": "3b161f046974e39061a569473e4478f2ebf3d2bbf1a93b4b3695acbb463f5a2f"
     },
     {
       "index": 4,
       "timestamp": "2026-02-02T08:45:00.000Z",
       "transactions": [
         {
-          "txId": "tx_4f4a4c5b991da9d8c622",
+          "txId": "tx_ca06b73b4b9e341c0cd7",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1095,34 +1095,34 @@
           },
           "privateDataHash": "c437f5619d6102987bbebdd5d90ad934a5f6b87d434c371bc83b9a414a9f5824",
           "privateDataCollectionName": "PDC_Universal_KEMSA_NationalProcurement",
-          "signature": "3110e2e645fc75cfdf33967253958c316b22f7da756479a8b880edab32c22f2605bc21f884551649820abf47442436115ebd9f5de8bffd45b844ec96ec651c40",
-          "signerPublicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9",
+          "signature": "e5a80eb1e6e1b14143da47710f4c0f56e0ce2b19a177a1d440c80111078382024f88a3a28f82fadb5bf8f4679e057606d22fe1ccc26b972f4db5c73738b85833",
+          "signerPublicKeyFingerprint": "ECDSA-P256:6A5B150261F96723",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-KNH",
               "endorserMspId": "KnhHospitalMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-02-02T08:45:00.000Z",
-              "signature": "2f2a55c4b62c24dcf770b3902c6024118a605000339553c72080cb0241002b007254508af1b0caa73c8a10e747179c05fddf79283c2a5568460edf5c79477429",
-              "publicKeyFingerprint": "ECDSA-P256:D449C5B3865601B8"
+              "signature": "671670d51cdb770d9db52aeeff5e5eb0df3bea7f8fb724349b39a0eb481b8e5f795503eb6c0a5a96ee070396d19dfbc6be2b6ee707a9d2315d932e95bfc37654",
+              "publicKeyFingerprint": "ECDSA-P256:3B66C48BCBA00D5A"
             }
           ],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer', 'KnhHospitalMSP.peer')"
         }
       ],
-      "previousHash": "ce78cb119b7369387925eb4e4af4ac541a7916f63cd78b28fefcff634a0f6f6f",
-      "merkleRoot": "26538512e5975f500315d6f37ed9e1244072a891b0cca1287be6f410f16b09cf",
+      "previousHash": "3b161f046974e39061a569473e4478f2ebf3d2bbf1a93b4b3695acbb463f5a2f",
+      "merkleRoot": "e8e84746a4df80f64c420efe140e90346ffbaa40948d88d8466ff34a0f4ec583",
       "creatingOrgId": "DIST-KEMSA",
       "creatingOrgName": "KEMSA (Kenya Medical Supplies Authority)",
       "creatingOrgMsp": "KemsaSupplyMSP",
-      "hash": "00ac731fc2509c8d569ae490cdd1e4fd8c4dd4173d29df66cc3122031994660a"
+      "hash": "da27fb0e211c71d01a57eadd549b1da51c0ec79197b52eff612e686088d83c84"
     },
     {
       "index": 5,
       "timestamp": "2026-02-02T15:10:00.000Z",
       "transactions": [
         {
-          "txId": "tx_23c8737dddc7992a8def",
+          "txId": "tx_3f7c1ee9d72021102dc1",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -1158,25 +1158,25 @@
               }
             ]
           },
-          "signature": "dba164512dd52496512a7057bf8547f797098fb199df4c6f67ad5427ffbb5b8c7cef98bacf05a7e959b3250e03905abeb13733177b8270137170d2380815a287",
-          "signerPublicKeyFingerprint": "ECDSA-P256:D449C5B3865601B8",
+          "signature": "44afef48202ed38675765d488e7e4adf2a4284010ce23eb963e2ffeb1cc01327cb9a9e1cd1f4a641fe3fa8609a0f03122b308c19fe631527d0bebd2424fef5cb",
+          "signerPublicKeyFingerprint": "ECDSA-P256:3B66C48BCBA00D5A",
           "endorsements": [],
           "endorsementPolicy": "AND('KnhHospitalMSP.peer')"
         }
       ],
-      "previousHash": "00ac731fc2509c8d569ae490cdd1e4fd8c4dd4173d29df66cc3122031994660a",
-      "merkleRoot": "d08a657388ca0615a7973c514bd6c3c2222bf7699ea2ee96e06823428fc87c73",
+      "previousHash": "da27fb0e211c71d01a57eadd549b1da51c0ec79197b52eff612e686088d83c84",
+      "merkleRoot": "2eec4f01f720b8089244e7b0cc6b2be525eb7ee689f6126b1ef89af35f75b07e",
       "creatingOrgId": "PHARM-KNH",
       "creatingOrgName": "Kenyatta National Hospital (KNH) Pharmacy",
       "creatingOrgMsp": "KnhHospitalMSP",
-      "hash": "77714004fd79a30ce5f2d290de55de96429b13eb8acb4ec79023ca1c5b7fc203"
+      "hash": "0237c1c342b109f65148a11b2215eae427c5e809e3328768518b1f5d5a0fb312"
     },
     {
       "index": 6,
       "timestamp": "2026-02-14T16:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_f0a3a3d02151ee5bfc85",
+          "txId": "tx_bf24905930bb1cb30dd2",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "dispenseUnits",
@@ -1210,25 +1210,25 @@
               }
             ]
           },
-          "signature": "0d4673defdb8295a8aa68c59c8115f3e1bab9c084dae4c7cc79e25c55a3bc08f7674a11598bc4332a77dbefe3dd7b9b2f48d7f58fd23a94d90f528fb39e10c9b",
-          "signerPublicKeyFingerprint": "ECDSA-P256:D449C5B3865601B8",
+          "signature": "cb5e40167e332fcaf33d659707712ea004d72561b233429def2416382477029f7b51706788ede09539eecfc5fa21b9e64b4fb8a760ae56e8ffa6865484967b22",
+          "signerPublicKeyFingerprint": "ECDSA-P256:3B66C48BCBA00D5A",
           "endorsements": [],
           "endorsementPolicy": "AND('KnhHospitalMSP.peer')"
         }
       ],
-      "previousHash": "77714004fd79a30ce5f2d290de55de96429b13eb8acb4ec79023ca1c5b7fc203",
-      "merkleRoot": "edc5c0d97b5c14e35c574f63abfb70e5afc54b07b733821b41aef1554fae69cc",
+      "previousHash": "0237c1c342b109f65148a11b2215eae427c5e809e3328768518b1f5d5a0fb312",
+      "merkleRoot": "a893fefcde150c6fb95994f8b802f45ba34fb491702bdd4c8a458db03192bbca",
       "creatingOrgId": "PHARM-KNH",
       "creatingOrgName": "Kenyatta National Hospital (KNH) Pharmacy",
       "creatingOrgMsp": "KnhHospitalMSP",
-      "hash": "042f22f583e5aad06778ac00be177c29628206c4abdfc5a6c753d40103bafeb1"
+      "hash": "32a47a8a0014af2b8d5befbf7397b7cd92d2d7a684c9690279ef29ebd42f439d"
     },
     {
       "index": 7,
       "timestamp": "2026-02-01T10:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_0ca495fc518c5b05c9b4",
+          "txId": "tx_b784efff779d8378de47",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -1263,25 +1263,25 @@
           },
           "privateDataHash": "9104ca344a9e6f3f69e37d30225b8247cd8b370abf8bbb2568ae697b68cadddd",
           "privateDataCollectionName": "PDC_Dawa_MEDS_WholesaleAgreement",
-          "signature": "ba9186a2aae1defacbbee7d9a86a8fe95486d109277a7806e43699b9d169f8a8e58ad1013244abc165642b61f0e5f7717fb1579797ee7eed81e3a3b2750db139",
-          "signerPublicKeyFingerprint": "ECDSA-P256:2434B045C1DD1705",
+          "signature": "1d279f17c3b21a5e829a41193df944d9d1df30813619579875067c2f5b92141a21d275f7afb29aca6b9de8573a6207c9db95aeda30f08ff207f6ca7c06896cc4",
+          "signerPublicKeyFingerprint": "ECDSA-P256:DDD419DC47D5FA28",
           "endorsements": [],
           "endorsementPolicy": "AND('DawaLifeMSP.peer')"
         }
       ],
-      "previousHash": "042f22f583e5aad06778ac00be177c29628206c4abdfc5a6c753d40103bafeb1",
-      "merkleRoot": "0c56346811e87911489c6363012d8a0f44615bd97d5b3f3781186512f2e081aa",
+      "previousHash": "32a47a8a0014af2b8d5befbf7397b7cd92d2d7a684c9690279ef29ebd42f439d",
+      "merkleRoot": "cf117d68d0910bb3d1b461c8883e3d7726571b787a5030fedce66c3423ced6cc",
       "creatingOrgId": "MFG-DAWA",
       "creatingOrgName": "Dawa Life Sciences Ltd",
       "creatingOrgMsp": "DawaLifeMSP",
-      "hash": "0117622d86cf88c6e42b260b6f2b6adeaa8eaeb3ebd09204df4359ea9bd384c2"
+      "hash": "71d4f7fadf93d8e9968c1715d862cfe67334148b67e4b5bd10b01172b5f317f8"
     },
     {
       "index": 8,
       "timestamp": "2026-02-05T09:20:00.000Z",
       "transactions": [
         {
-          "txId": "tx_33b2f02e620abf8d30af",
+          "txId": "tx_602b0c7a474e2e0f9346",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1320,34 +1320,34 @@
           },
           "privateDataHash": "9104ca344a9e6f3f69e37d30225b8247cd8b370abf8bbb2568ae697b68cadddd",
           "privateDataCollectionName": "PDC_Dawa_MEDS_WholesaleAgreement",
-          "signature": "6e120c122d74b1ace5917788e2e4439bea56aaf02199e2025722eba6ded18d5d4107b7d9f22f8d6e187b66082a8942b57f5f65fbcdb9e92296005bdac38d8174",
-          "signerPublicKeyFingerprint": "ECDSA-P256:2434B045C1DD1705",
+          "signature": "92a2905f600cd5f79e7d7c449adb2fec718a602969f93f4d56abeada0ce14c74573d931c2a7f02e3f543a6e05e624d30f9c0a68b4db0f155e71f113edab0a8bb",
+          "signerPublicKeyFingerprint": "ECDSA-P256:DDD419DC47D5FA28",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-05T09:20:00.000Z",
-              "signature": "3365b34fc225b4448a3370319262703930a98053ab9d86f2f43381d33e8244e6b20e8332a5a4f048af2ec22ceb22270f2ba8f0db8b67fed45de5006687dc7720",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "be720ab6ff45cbba5d2a035b909b7368e1d7fd1f3bc5474a2f1faabb04593033fd2cf12530646b89c90c6640ee52075f81fa2b7ca8264705a0ecaa866f9c796d",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('DawaLifeMSP.peer', 'MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "0117622d86cf88c6e42b260b6f2b6adeaa8eaeb3ebd09204df4359ea9bd384c2",
-      "merkleRoot": "584160e9deb53a19c803bfa77aa0215d915d8ce7a188063cc3fd634e2a5c7be9",
+      "previousHash": "71d4f7fadf93d8e9968c1715d862cfe67334148b67e4b5bd10b01172b5f317f8",
+      "merkleRoot": "25ef95c935b391521f7c199691407d9e7f2e8c04be16b19ed1b1cda23318b33a",
       "creatingOrgId": "MFG-DAWA",
       "creatingOrgName": "Dawa Life Sciences Ltd",
       "creatingOrgMsp": "DawaLifeMSP",
-      "hash": "75e18e26d86911825d09f89bc44b84bef2fabd31d21c49324a8592949e5b23da"
+      "hash": "abd0053e10a564741592dfbf9c7f1f91572b8b5c7230f1ad1f36f562daba2666"
     },
     {
       "index": 9,
       "timestamp": "2026-02-05T14:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_f67132ba0d53575e6af8",
+          "txId": "tx_d782c72e5161a6d802a7",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -1383,25 +1383,25 @@
               }
             ]
           },
-          "signature": "7cc17849aa6995c32642a1e2058fbdbff5717418b5d51568f08db998118289cb1d6494c85e246b72d35c0d7680624b0622c0aa66dd3dff0c11185afdabe03b97",
-          "signerPublicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81",
+          "signature": "3c71cd9ace8463d414f89138eca11827add9dece22492e163051584daf6cecbfd6de8613a8b2ae94705ae358f4d926bd009dbeabb5ae618c774b70886c77381c",
+          "signerPublicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "75e18e26d86911825d09f89bc44b84bef2fabd31d21c49324a8592949e5b23da",
-      "merkleRoot": "6835f1566a3e52bca2119787501c01ea182413fbf5faa8d53e94475e13a2b531",
+      "previousHash": "abd0053e10a564741592dfbf9c7f1f91572b8b5c7230f1ad1f36f562daba2666",
+      "merkleRoot": "7c43a1d91dd9b4d38437f5110b8aba8e9b34aab63d60d590de602cbcf7fb6114",
       "creatingOrgId": "DIST-MEDS",
       "creatingOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
       "creatingOrgMsp": "MedsLogisticsMSP",
-      "hash": "21c18458ee182972a9165a2e4e90a9f7d6921cd9be684e2f6939ef9750d7e43d"
+      "hash": "fdb321ba606c9a7035c634450fced372bf5f4b57dabfefc8d04d46abea9588c6"
     },
     {
       "index": 10,
       "timestamp": "2026-02-12T11:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_e11826ae53411acf9152",
+          "txId": "tx_321dbc5c569d58c3fca8",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1440,34 +1440,34 @@
           },
           "privateDataHash": "9104ca344a9e6f3f69e37d30225b8247cd8b370abf8bbb2568ae697b68cadddd",
           "privateDataCollectionName": "PDC_Dawa_MEDS_WholesaleAgreement",
-          "signature": "964d81d9e6edf602c501bc8a6bb3e86c360f428dc755f7cf2cf99926a3b345c1386a1a83fb92d313f80d9f64f77495e6e89824a61018e641362af2d884c4c27a",
-          "signerPublicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81",
+          "signature": "acf13373316afcfdd5976c063853cf438b7a55ffb61c2eb62651aabc99fbb413efc4160f999294a9cd15474638b6034247e8c15aca6d3b59822c4c88ca57c54b",
+          "signerPublicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-02-12T11:00:00.000Z",
-              "signature": "428a94e866cf14dd879fda0eee43341ef927a07071915adc4e39cb932ab2f3c223525dd7c607ac99d92ca080a59a4980ee60f9e13fabbdddcab4f8b815358b76",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "f42fa7d062481d3f7fd75ff19942cb1106da1aac545f797f8fb1c37e76c9283b9ddc24c39876071b6c61c3597cc574abcb7253fe47649911b5ec44f68a58e8e7",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer', 'GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "21c18458ee182972a9165a2e4e90a9f7d6921cd9be684e2f6939ef9750d7e43d",
-      "merkleRoot": "1450faa4abaa84f470a83de00faa853c63bfb01b23e2186df9f3693c9bb7c464",
+      "previousHash": "fdb321ba606c9a7035c634450fced372bf5f4b57dabfefc8d04d46abea9588c6",
+      "merkleRoot": "a0dd24855ac909ad2a7d434fd7f9442eca18860c290c0c697e13a646affc00c3",
       "creatingOrgId": "DIST-MEDS",
       "creatingOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
       "creatingOrgMsp": "MedsLogisticsMSP",
-      "hash": "6326d9198e3abd2ada262674c16cecaec2749403142f26e017a8fa2d960794be"
+      "hash": "7f42e425edbdb4418f1fee7f39971b1e831d347388ad5ccb7bca013661d44874"
     },
     {
       "index": 11,
       "timestamp": "2026-02-12T16:45:00.000Z",
       "transactions": [
         {
-          "txId": "tx_637e98238fd72c1efa9a",
+          "txId": "tx_482bc01d4af2a6c96a7d",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -1503,25 +1503,25 @@
               }
             ]
           },
-          "signature": "34a11f33f75a68fca555ca1cba965ab941f5544161eb2b664695eb8042394347a024acb4b54ecea6cc1286240bd8934d96ceac03df526b4932595a8972e520fd",
-          "signerPublicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7",
+          "signature": "fe35fc50f025cb1e8e02f2b1187a38a382c99d65e19b039e8cba47b10fd7b5b4b1307e95d112e591f45e25009e3e2e3df245e25ecbec0f2cd646a9bce0dad406",
+          "signerPublicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "6326d9198e3abd2ada262674c16cecaec2749403142f26e017a8fa2d960794be",
-      "merkleRoot": "ac56821ba1d8ae9fc3d10fcc2407dbbec52768c8757acef90efeae18dc2b3c27",
+      "previousHash": "7f42e425edbdb4418f1fee7f39971b1e831d347388ad5ccb7bca013661d44874",
+      "merkleRoot": "9937198de15bcaf45234024bd1f72b31f3b785c2d9a6b4d483844f530b26f3ec",
       "creatingOrgId": "PHARM-GOODLIFE",
       "creatingOrgName": "Goodlife Pharmacy — Westlands",
       "creatingOrgMsp": "GoodlifePharmMSP",
-      "hash": "20e5cef3275beb3178eab045ea1d3009d4f05be3cd22417f3997dee8bb37073d"
+      "hash": "25bd1e199d6d5a6973ffc9db71ea1054c4cddb0d4c9ac5b13d8a4b88ffc86abb"
     },
     {
       "index": 12,
       "timestamp": "2026-02-20T13:15:00.000Z",
       "transactions": [
         {
-          "txId": "tx_4a3858635c569ef33543",
+          "txId": "tx_4cc05973d15cab66635c",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "dispenseUnits",
@@ -1555,25 +1555,25 @@
               }
             ]
           },
-          "signature": "adf4743f1ab4cd3a3f84a9f1cda40082a274ba709b078bb8f9be0611778b15438e5f21ab688d6b6cf402be9e470112ca1c00e580b7ae6cbdaba51777e26a87fa",
-          "signerPublicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7",
+          "signature": "a243d2573a1b81ce65e6f0d83d0fbc88088eb4b79ee6da2776dbb295632053b92f81d3ce1f60e68db620281dc01cb8c093fc1b4685410097efebf541db5df60b",
+          "signerPublicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "20e5cef3275beb3178eab045ea1d3009d4f05be3cd22417f3997dee8bb37073d",
-      "merkleRoot": "afbe215ef104f88885e2b56b49c54c6e3796beebec78be813fb0893a3cb7d7db",
+      "previousHash": "25bd1e199d6d5a6973ffc9db71ea1054c4cddb0d4c9ac5b13d8a4b88ffc86abb",
+      "merkleRoot": "1367850415596698b3d269faa2944f97fbe90d62281640c80823e589008fe9e8",
       "creatingOrgId": "PHARM-GOODLIFE",
       "creatingOrgName": "Goodlife Pharmacy — Westlands",
       "creatingOrgMsp": "GoodlifePharmMSP",
-      "hash": "4806a9521f753262bfd073f86d93bfecc247c9ad7fbb0cb913326a6479212873"
+      "hash": "bc5df97343f7f7c44a17703928ae57b1cd2cb1207269a9369c8d145825f3c5e2"
     },
     {
       "index": 13,
       "timestamp": "2026-02-10T08:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_b6e99da8472055f90b4a",
+          "txId": "tx_d37c63b8e92f9dab3769",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -1606,25 +1606,25 @@
               }
             ]
           },
-          "signature": "9a7e464ff4b47e0b2140cfdb8fa649af352a9ba5616215487c8260b4a73a65905165a1b293c6efc5dd7ac5d922990b59dac8ab023987fedc0c6b441ccdb89388",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "71c25ede93a9947c5ef6b32fa0e69d76a174d0f41ed7bdfce337d8579590f70c8e68a99ea09828e7ded9744b1a87dac3b33d095bf9527c8c2505ed9809bf8e31",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         }
       ],
-      "previousHash": "4806a9521f753262bfd073f86d93bfecc247c9ad7fbb0cb913326a6479212873",
-      "merkleRoot": "3a66ea73e7c0977c956f0390b8904f551fc3664a7522812c8824d10c2bcfddec",
+      "previousHash": "bc5df97343f7f7c44a17703928ae57b1cd2cb1207269a9369c8d145825f3c5e2",
+      "merkleRoot": "50a0596c17bab9a2406d2e2877171d5a33a58d630f1aa8acdd27adaf7f3a5d61",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "3a6ff314cfc765e50dc28c9d26954ca5d3cd78193e70d9ac59a765ce84b1f305"
+      "hash": "848c4007cef9e8314d43e31ed4e548e0c6c315575b0d0e5cd6043d7adbd1975e"
     },
     {
       "index": 14,
       "timestamp": "2026-02-15T10:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_c319e7365f292946a7b2",
+          "txId": "tx_9b9c44d3e65963e1f560",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1661,34 +1661,34 @@
               }
             ]
           },
-          "signature": "fa03de3a112f781c00fd2f16aadbcdc0cadb4d7356be853486e0bcf35dbe073c60d7b0969776ca4518cb4ee2263f820744c5a9572fddd491275e20b530a5a184",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "559f1f3b02647fe53ba352358edb13c3d270cd873eb23819efe75503d1f4e3e3d84df1d05c913c2a325199de3f213b03ff7f46c0d31807bd7df0290adb3a345c",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-15T10:00:00.000Z",
-              "signature": "5ae95ad0b6a6d6ad9961840d2855134da650e0610eb7f689039c9f0c054db5079c1846a0687097e02cf14863365fbe81c340ad2b053d098f9a343012548b377c",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "cade83b3f8269a12f493aff041b70b95b37db2c46dbad4425d658a0b8e6a7e4ff8ba3c29034c3f9e9528c5f0353a992d8920623471adf1e152181515b3f18727",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "3a6ff314cfc765e50dc28c9d26954ca5d3cd78193e70d9ac59a765ce84b1f305",
-      "merkleRoot": "ebd01bea0abc5ce0c6eeff6491dee8c0fc1e78102a9d39fc44e6e93d40a3a6ad",
+      "previousHash": "848c4007cef9e8314d43e31ed4e548e0c6c315575b0d0e5cd6043d7adbd1975e",
+      "merkleRoot": "2a5dc2dd14be4a6e0fb66d733415bad055102453fab8f871c5bd56f6d630e936",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "94dad3e19bdba2703bf1b72947e5b7cf664454f39fe9ce377150a58a8abd4524"
+      "hash": "bca7c1801fb251d82c719ed19e5c84b5e393bfb7ab48dd4b71aebedc3d5ec5f4"
     },
     {
       "index": 15,
       "timestamp": "2026-02-15T15:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_a7065d54b14e793d8706",
+          "txId": "tx_c5110a1f4bc1140cf10c",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -1724,25 +1724,25 @@
               }
             ]
           },
-          "signature": "289a3adb9e6970a9cf4dbd5080a6671cdf39f5f00ecc373c9f54330cdb1f1b03cd9c64ae0bd76106af3e839a3fdddd0fe1364ababccf545768b3dcc34fdc4bf1",
-          "signerPublicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9",
+          "signature": "94301be9bf2227905774ce67409dcdeabfb76cb9a87e604ccc5c4fb20e36ab23b01fdf130edd8831335de3849f4c313c553e6bf4782c23527728ea546fcebded",
+          "signerPublicKeyFingerprint": "ECDSA-P256:6A5B150261F96723",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "94dad3e19bdba2703bf1b72947e5b7cf664454f39fe9ce377150a58a8abd4524",
-      "merkleRoot": "8060d750d61c3a80bf2bca5b792b9ac22fbf32ec22dd1449749dc07f6c4e3dae",
+      "previousHash": "bca7c1801fb251d82c719ed19e5c84b5e393bfb7ab48dd4b71aebedc3d5ec5f4",
+      "merkleRoot": "fe8a349a634f6d22533d7fe2bdf24ead143a96a0e326f7ddd106ebbc9d2be13f",
       "creatingOrgId": "DIST-KEMSA",
       "creatingOrgName": "KEMSA (Kenya Medical Supplies Authority)",
       "creatingOrgMsp": "KemsaSupplyMSP",
-      "hash": "f7365a584717f2f8780a37f41e06537391dd999b0a4f1d2a1e62356a1e349e7e"
+      "hash": "7ffe814d1bcc2be2654e8a2bca659eaa805127ff886dd7973cd0e30b2a2cabca"
     },
     {
       "index": 16,
       "timestamp": "2026-03-01T09:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_628dbff134a790adafd7",
+          "txId": "tx_5a423c1acd153cbcdb53",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1779,34 +1779,34 @@
               }
             ]
           },
-          "signature": "993076195fc98b4a727e1ef8f3ab85fe79f6a02a537dd595c5c7534d3c61b790751ff4df99d5529aeecc7f7c620a9a43c91fb28aa86de0103c5be1dd3387c256",
-          "signerPublicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9",
+          "signature": "488fd8115a2c509ac081dfd078a3e3bac0d5e7cf275c2092a79a433aa801dfb3dc4766e69921a177e3081d6b4a5e119a8b893db2839fbb63e07e1f6d490f986d",
+          "signerPublicKeyFingerprint": "ECDSA-P256:6A5B150261F96723",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2026-03-01T09:00:00.000Z",
-              "signature": "7a6c36a60a46d6685d80845d006f8a44f8c164ea1cfb48a09885a56c616c49132bf943a88b1ff535998e080f426b1cacadeb3b6f13121ee6e8016c481587bebd",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "ffb8b233e896c18d0d9cdb2b7d5a1f92cee4267cea0e141438988e6b8ad82148104c57a66298ae999210f8a399bd0d96b86d3fbc5507419b54c24ad28bb30fae",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer', 'GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "f7365a584717f2f8780a37f41e06537391dd999b0a4f1d2a1e62356a1e349e7e",
-      "merkleRoot": "387be20e6ab5880bce9b755ecb6a738872be983a0d825ffea88f3f03856907e8",
+      "previousHash": "7ffe814d1bcc2be2654e8a2bca659eaa805127ff886dd7973cd0e30b2a2cabca",
+      "merkleRoot": "0a744b948d27ddedb4c632120dee5a25d0e889c7714079b032002d2b4520c716",
       "creatingOrgId": "DIST-KEMSA",
       "creatingOrgName": "KEMSA (Kenya Medical Supplies Authority)",
       "creatingOrgMsp": "KemsaSupplyMSP",
-      "hash": "0735b895ed8ea9de3f8d276595b1e04d8ba15a0a88b2e99a5b89228165467f7b"
+      "hash": "3ce4f33033d25b393a018e41925472747ee437ec04e3eb5c633f8aadcca06c2f"
     },
     {
       "index": 17,
       "timestamp": "2026-03-05T11:20:00.000Z",
       "transactions": [
         {
-          "txId": "tx_0897024763dd7dca378d",
+          "txId": "tx_e994194b063a31b9daed",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -1839,25 +1839,25 @@
               }
             ]
           },
-          "signature": "54d43fdeeeb1bdc995ae8ec3561ef2f47a3980494c7ee818788fa7eed6ccaabd23174a9ee50c7bd1435566aca335d58c851e1463671937d41eccc8242ba1abc7",
-          "signerPublicKeyFingerprint": "ECDSA-P256:2434B045C1DD1705",
+          "signature": "40f5c91015f892bdb8693e5ec748c9fc95006d80c9c404487ec774576d874ed191dfb6cc4ee8f19f9579624ad43d770d7ae25f26af8201cc7de14e8d63cf992d",
+          "signerPublicKeyFingerprint": "ECDSA-P256:DDD419DC47D5FA28",
           "endorsements": [],
           "endorsementPolicy": "AND('DawaLifeMSP.peer')"
         }
       ],
-      "previousHash": "0735b895ed8ea9de3f8d276595b1e04d8ba15a0a88b2e99a5b89228165467f7b",
-      "merkleRoot": "3376ab5e0d2262c2caca063f9b6b2bc7981250d1209f0ab804f449dab473be73",
+      "previousHash": "3ce4f33033d25b393a018e41925472747ee437ec04e3eb5c633f8aadcca06c2f",
+      "merkleRoot": "4660320d0391b1b826f1d6ec7be0265cd6f8d86cf5dd254075cd0a4ff894267c",
       "creatingOrgId": "MFG-DAWA",
       "creatingOrgName": "Dawa Life Sciences Ltd",
       "creatingOrgMsp": "DawaLifeMSP",
-      "hash": "26f7b217b6dc4906af9ac7e4c1ac65823bec90c28f651fe45764899d6c625fcf"
+      "hash": "4efae1341a1d89e81a7c213c75640a03b1945f7efef185673eeaebdac00ccfa2"
     },
     {
       "index": 18,
       "timestamp": "2026-02-18T08:15:00.000Z",
       "transactions": [
         {
-          "txId": "tx_1337eb44b6ba8cd0d873",
+          "txId": "tx_8b69905b7eaaa72dc09d",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -1890,25 +1890,25 @@
               }
             ]
           },
-          "signature": "b2deeeb27f9692e48e50ebfd2486870c6ae4bae21bd4fae8ae080f0414e0a4910b4493f27025550025ab9080bbda2f95d126466e54ab124f82716a74480fadfb",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "ce087541a97355b7d5fbc97d2d852567bb51f89bf8d7305960ad70159b54ac5eb246e56be2f8822900185e500b4c8584369c0ce8987479de84bc0b47fa12b621",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         }
       ],
-      "previousHash": "26f7b217b6dc4906af9ac7e4c1ac65823bec90c28f651fe45764899d6c625fcf",
-      "merkleRoot": "dbe2203649bff957917a3a6c43ca34af5ffac4232c7140e8d1647c599de3bac2",
+      "previousHash": "4efae1341a1d89e81a7c213c75640a03b1945f7efef185673eeaebdac00ccfa2",
+      "merkleRoot": "0f2a8d9bdc506ee9d766b9decfc18bd88adb8e1cf368e44fed0851d76bf407f5",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "f8a2297367d78739c16989126913b283b9797546b083c210a9bb86526bb51936"
+      "hash": "a5c296e5cf9885c94a2633c70094331f26126aff3199be6a0eed146ab1db3015"
     },
     {
       "index": 19,
       "timestamp": "2026-02-19T10:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_df62c30e56df20d804e8",
+          "txId": "tx_f4230f47fe6d35d508ab",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -1945,34 +1945,34 @@
               }
             ]
           },
-          "signature": "693eb5010efd04b5be986891a536378575574822ac3b496c80714cfc9cf179d3f6cf0c0a49b2b58eed5aa5664574d33eb79ebd28f3e722a1facfdf214e09af33",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "7c76d44ea8974ed99312f980acf416869b98405ed5b1afb8fdfb4be7dfe25bbaefd31ee22258a60bd2ee04e7fbee7ca8ff1a7ca63c265036f6cdae56f1578787",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-02-19T10:00:00.000Z",
-              "signature": "a6817d7915203ad507a6dab1950367d4e78411319899980d8de895e747253c2dfcbf1063ca33de01e5e780e4c4d5c10e039c5d2a8d68daaed0b48825d9c083ec",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "06371ec71a9276cba6c836b963289c8c8b87038622d2f4fc39149da205ce2ce4f05b31036a2b78f7673ac408ed1e7e4a148c45e815a7b6169eeec074224829bb",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "f8a2297367d78739c16989126913b283b9797546b083c210a9bb86526bb51936",
-      "merkleRoot": "a0a8ad204f683425205ad9c17e9438752d36576e5cc21263cbfc97aebd548157",
+      "previousHash": "a5c296e5cf9885c94a2633c70094331f26126aff3199be6a0eed146ab1db3015",
+      "merkleRoot": "b0e6abbc6e11fa79f153051e87376e4b7ad6296ebaa67c35d558d3365cb23c94",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "33eaa5db02c0cbd8f2419522c2890345410c96afa8f2ab9381639651fcdd6b4d"
+      "hash": "0088c8292f7a19fc66e9e8093e6dd2fbd2641bdccd82d6d2570d8d5989dcdc52"
     },
     {
       "index": 20,
       "timestamp": "2026-02-19T14:40:00.000Z",
       "transactions": [
         {
-          "txId": "tx_0b471f032528c6f57772",
+          "txId": "tx_a4907991f61ada4bb6cb",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -2008,25 +2008,25 @@
               }
             ]
           },
-          "signature": "2211169d59d4a0c727019c7f3dbf25a53e1c10d2683b9075be917fd167787e95c44d2c5de4ef2fbd4b5891dd6dde0e4b1470c35ab31b95087585dd8d79497848",
-          "signerPublicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81",
+          "signature": "788a7bb2dd83db91f512a2e19ae834502b95dd65072d6c427f68671f7d7630b27f4503c0f4e176c8255250c0704f44e2f1d19be966a5d489664a58c0c0a62425",
+          "signerPublicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "33eaa5db02c0cbd8f2419522c2890345410c96afa8f2ab9381639651fcdd6b4d",
-      "merkleRoot": "271754b8a4815efa530c8e537053c3774c59ba331d74ee2ef2d974d9ae9048a2",
+      "previousHash": "0088c8292f7a19fc66e9e8093e6dd2fbd2641bdccd82d6d2570d8d5989dcdc52",
+      "merkleRoot": "c56ec3827ffa3319de6c6d6c5c7aa40fb0cc37e0828ba29babd9ff642e72f40e",
       "creatingOrgId": "DIST-MEDS",
       "creatingOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
       "creatingOrgMsp": "MedsLogisticsMSP",
-      "hash": "93fc75c68aa17ae97b8665db62f2db1f37e5558a015c50037eeddf5a5dcefb0f"
+      "hash": "239127d850af80974c62e093681f722966ef5f191cc29b1835f99bb1eb96d9e1"
     },
     {
       "index": 21,
       "timestamp": "2026-02-21T09:10:00.000Z",
       "transactions": [
         {
-          "txId": "tx_233797b4e1f7012ad238",
+          "txId": "tx_cc22d26418aea06f7d72",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "flagBatch",
@@ -2059,25 +2059,25 @@
               }
             ]
           },
-          "signature": "9f0f7f91c5ac1a6453facbabb5d91d36405d77a9c7adef0e5d99d92d1abcad56bddec51730c830d725c375d57a72a4325daaa65a2ae5dcdb0a34d66396ec4e3d",
-          "signerPublicKeyFingerprint": "ECDSA-P256:07DD9704A33A8ED0",
+          "signature": "a14b73560173555c5845b512ce80a37188a07897379fdb9a31d376127df84a517634ed75a1af9e45d684a71a34d51f7abcb6e4c31efbb9dd46ca014655c6405d",
+          "signerPublicKeyFingerprint": "ECDSA-P256:8F67D5162EFF297D",
           "endorsements": [],
           "endorsementPolicy": "AND('PpbRegulatorMSP.regulator')"
         }
       ],
-      "previousHash": "93fc75c68aa17ae97b8665db62f2db1f37e5558a015c50037eeddf5a5dcefb0f",
-      "merkleRoot": "8b2cb3942cfb1a59512d93a9f63e22fe3c3eef95b76c624a08d79fe7fb351ea8",
+      "previousHash": "239127d850af80974c62e093681f722966ef5f191cc29b1835f99bb1eb96d9e1",
+      "merkleRoot": "08affeb486f998af5bce1f31bce6698899edec1f38cf8e21ce0fd500f84c175a",
       "creatingOrgId": "REG-PPB",
       "creatingOrgName": "Pharmacy and Poisons Board (PPB Kenya)",
       "creatingOrgMsp": "PpbRegulatorMSP",
-      "hash": "bdbb703a5724687bb48f3af6c6fe48111a46f173609db11d906ba4cb88ee495e"
+      "hash": "f85579db51f013813aeec340ea7f077426d2d4eb0960dfd6fc75ce87ce020fce"
     },
     {
       "index": 22,
       "timestamp": "2023-08-16T10:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_49eb4e3c85102f21352e",
+          "txId": "tx_235e38651a180cacaeeb",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -2110,25 +2110,25 @@
               }
             ]
           },
-          "signature": "d335d7da539b8f9f247882248b7522aec1f1bb778455ccbd2863125a6a890ff0acc0e2fdf815aa441f5d56620d74051f9a86f25175e41b10cd17cb15b0922247",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "e75af268b48fe626601f26aca6fed4f7cd7aff14456047fc920b33843e79189de751a778034b16741d480d38725a131a5dd240afc26ebe95078f6703e816b7a8",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer')"
         }
       ],
-      "previousHash": "bdbb703a5724687bb48f3af6c6fe48111a46f173609db11d906ba4cb88ee495e",
-      "merkleRoot": "f9883c93fe60cbf1760138cdb671e495cbfe434b4cddd618422c159ae0a5f696",
+      "previousHash": "f85579db51f013813aeec340ea7f077426d2d4eb0960dfd6fc75ce87ce020fce",
+      "merkleRoot": "2ba8658f1e3803c806d632d858216e9454a3c634ed31037f55021a09399bd1ba",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "c0f33649fa39ae18bf48029014cb531e8c1f1465a228f0a33df68dcf215c5008"
+      "hash": "7c8dfee4556f24c8f1caa13f8512378b3d7e8f95eefea6bc08454871513736a7"
     },
     {
       "index": 23,
       "timestamp": "2023-09-01T09:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_2805f6ed8264dc6afa75",
+          "txId": "tx_88598eb3b0b93e1fe2ed",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -2165,34 +2165,34 @@
               }
             ]
           },
-          "signature": "307b3bd9274296401b641ef2a282f8fa4c2079c076138e6e1ac63bc24f4ef54407bf557e738f17fd9fba504ac0cf7eabc7a87c07f6576665408832377aba792f",
-          "signerPublicKeyFingerprint": "ECDSA-P256:25F2CB1AE69EAB27",
+          "signature": "570a090a08b62e3d5fe4fc2f81759cfa4379a61243d3d957d60988f9eb5447f53412676e35e497ccd5601ace87d3342546eadd095d088451e610eb7a998da6f9",
+          "signerPublicKeyFingerprint": "ECDSA-P256:99B178F13E08061B",
           "endorsements": [
             {
               "endorserOrgId": "DIST-MEDS",
               "endorserMspId": "MedsLogisticsMSP",
               "endorserRole": "Distributor",
               "timestamp": "2023-09-01T09:00:00.000Z",
-              "signature": "7e00255943e135a8d2c30286ecc6d854464701581411e94000faf2f6f8b0b1d90b9c8b964a67aa8e3f0d9295a93d20bc81ba5bb2edd8c621f4f93a69be81d13c",
-              "publicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81"
+              "signature": "3c8fe097065e5cc8f6dc76290a70d9dbbc31abcf2c69ff716e48d08a2c890f5dcad15d1e991ea7875c9ec112015808d8f8d914657de30f2f27a673fca9f8a689",
+              "publicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3"
             }
           ],
           "endorsementPolicy": "AND('CosmosPharmaMSP.peer', 'MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "c0f33649fa39ae18bf48029014cb531e8c1f1465a228f0a33df68dcf215c5008",
-      "merkleRoot": "ddd16be0220d3c3c938e8769f2637cc195ddb2ef8ee98f0faf4dce449bffbb1a",
+      "previousHash": "7c8dfee4556f24c8f1caa13f8512378b3d7e8f95eefea6bc08454871513736a7",
+      "merkleRoot": "117372ab7a21e023f5da8c5175b8652f2cbfdd3caed80ab8e6e077664064723a",
       "creatingOrgId": "MFG-COSMOS",
       "creatingOrgName": "Cosmos Limited",
       "creatingOrgMsp": "CosmosPharmaMSP",
-      "hash": "170c1e05c597ee3993b629d0fdfeb8e267dd01330d4987e95d287d973bba3bf5"
+      "hash": "16b8ed8cf37f9a848dec3ee686f551f774d169c6d809163ea2d3559569f24b1e"
     },
     {
       "index": 24,
       "timestamp": "2023-09-02T11:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_8d0aab600cae10b67189",
+          "txId": "tx_ddd2e7b1fde7d7f1b624",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -2228,25 +2228,25 @@
               }
             ]
           },
-          "signature": "cb07f86caf23ad856fef53d300179728784a92e1a540619965bac2a0be23db5c5ccb7c0607f6ef26493399a7bf6992ab1865ece1753dc1e1a1bbd96462e2e34b",
-          "signerPublicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81",
+          "signature": "f87fe5907843dc2dfa275079f5af20b3f02fee808076df91e3dbfbf66ef25b35a33f1e00bbd404f357b7a2a3d86636c0373f84d79ffde8c3a29c9675ffc76633",
+          "signerPublicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3",
           "endorsements": [],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer')"
         }
       ],
-      "previousHash": "170c1e05c597ee3993b629d0fdfeb8e267dd01330d4987e95d287d973bba3bf5",
-      "merkleRoot": "c7439f01b56cc67e68ebc2f4d16b8419cef5e9e1a79c4c60e30f4a06afc017f9",
+      "previousHash": "16b8ed8cf37f9a848dec3ee686f551f774d169c6d809163ea2d3559569f24b1e",
+      "merkleRoot": "2ba9da530d28ab44e9e79a25161b9684139b6aca893177ac1bd3ac91d9be9c66",
       "creatingOrgId": "DIST-MEDS",
       "creatingOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
       "creatingOrgMsp": "MedsLogisticsMSP",
-      "hash": "b026c95c954a25b72ed9354315156263cda463c157b3dd8637e7febbe0a4c1db"
+      "hash": "becb77cb6ec4325ad8188d19bf1396a3356932a6317c2a2150a72236533c54c6"
     },
     {
       "index": 25,
       "timestamp": "2023-10-10T10:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_5d240bf80122a5dbec84",
+          "txId": "tx_ac8950617504bf9c376c",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -2283,34 +2283,34 @@
               }
             ]
           },
-          "signature": "574ba38b07e47f5a1cfd6d82f8fa8f4b684f2aeff0bbba1c9e99da7b8eb941db30265029ea27525c259b7092c7bbca73420726087705a23209f2eb7b02bdb826",
-          "signerPublicKeyFingerprint": "ECDSA-P256:EC8C67DDCD4B1F81",
+          "signature": "e706d28d4326c834da57ad0838854d7c91fcc54e707e0776859ab30eade4e0296be8e0a2100ed7c34e468b92f01cb25b85eb1c9aa61974c61386f31f6181e3e9",
+          "signerPublicKeyFingerprint": "ECDSA-P256:D3D65F2D893654F3",
           "endorsements": [
             {
               "endorserOrgId": "PHARM-GOODLIFE",
               "endorserMspId": "GoodlifePharmMSP",
               "endorserRole": "Pharmacy",
               "timestamp": "2023-10-10T10:00:00.000Z",
-              "signature": "1644e0e24aa6a2468350a1c4ef795276e10c479254044b8d95b4a143e49fbcd30f7a3cf43701aaac7f948ef9a39547626b7b8b7518f28db047adb5ec2730f09c",
-              "publicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7"
+              "signature": "6c3eb02da9cba912c3d287b61a7fad9151fe4b1beaebd0f588ce48327377de5864f121b3d2459efe26629b8f6a04a5d7fab8859285c3175a5202c6c42681a4f7",
+              "publicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991"
             }
           ],
           "endorsementPolicy": "AND('MedsLogisticsMSP.peer', 'GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "b026c95c954a25b72ed9354315156263cda463c157b3dd8637e7febbe0a4c1db",
-      "merkleRoot": "101da6d7b5bd773b5b368a62b77c907c3bf7d96a8b40d4dfdbfe41ffea67afb9",
+      "previousHash": "becb77cb6ec4325ad8188d19bf1396a3356932a6317c2a2150a72236533c54c6",
+      "merkleRoot": "ac62cd1c2240b37a5ce7f02f63b3c01652ee71e45ed477e3f2a2b6091b61fbe4",
       "creatingOrgId": "DIST-MEDS",
       "creatingOrgName": "MEDS (Mission for Essential Drugs & Supplies)",
       "creatingOrgMsp": "MedsLogisticsMSP",
-      "hash": "64b3accf22e1d5c2ad3aca2902f0a161fa6a2c2afaef7827f58fa66e1c1c9bc5"
+      "hash": "a42bdec17886ab5f5b59213b4e3242915718b0a834fd72d13a4ce596b05d2b22"
     },
     {
       "index": 26,
       "timestamp": "2023-10-11T15:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_d3dc597c274fe3db300e",
+          "txId": "tx_f72b9e2e12c3d6c95c45",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -2346,25 +2346,25 @@
               }
             ]
           },
-          "signature": "643e3450e6da99e4f654fd7921d26217e2d8cde6c1f2cc3d714c7c3734ba860274a862223a61cd66ecf53c51a24397383fbd86c2def78fea32d633b344e01ff4",
-          "signerPublicKeyFingerprint": "ECDSA-P256:A2E01B58A655B0D7",
+          "signature": "5a8907a3f90a93853e129cd8dad08830580c6750fb51d7c283f3ee01cf3a09c3cdf091a30589583f738a83fe603b9060c9fd925d422a4382f1b2a3893be04e10",
+          "signerPublicKeyFingerprint": "ECDSA-P256:A9ED4C143685A991",
           "endorsements": [],
           "endorsementPolicy": "AND('GoodlifePharmMSP.peer')"
         }
       ],
-      "previousHash": "64b3accf22e1d5c2ad3aca2902f0a161fa6a2c2afaef7827f58fa66e1c1c9bc5",
-      "merkleRoot": "d6c8fd2bbb476cf80f5bb0646330cefae338b78fd3021f772afea4346f506d5e",
+      "previousHash": "a42bdec17886ab5f5b59213b4e3242915718b0a834fd72d13a4ce596b05d2b22",
+      "merkleRoot": "c7f4997f2ad9ee90be3e9802d8d9d3bfcad839e34aec8cc2c38a8cd652acabe5",
       "creatingOrgId": "PHARM-GOODLIFE",
       "creatingOrgName": "Goodlife Pharmacy — Westlands",
       "creatingOrgMsp": "GoodlifePharmMSP",
-      "hash": "1c6d1a06efcb29ddd5fc67621056332aa34303268a2e6491de3dc8799880020d"
+      "hash": "908bac2ab7164494a75409862587edb0af050c0fe38933c669f9226bed839659"
     },
     {
       "index": 27,
       "timestamp": "2026-01-20T09:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_9d2c344ddb2c91f64450",
+          "txId": "tx_d50f683f4172167fb332",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "registerBatch",
@@ -2397,25 +2397,25 @@
               }
             ]
           },
-          "signature": "a66e7802e2cf49ab71a4f4ea1a9f8a5b6a8f6d5b45c0c9dfadf01373ab4a41fd5d4f5022dc58c97942fdcdbec7037dbf81367f2bf22faed2d422b2c7edeb30e9",
-          "signerPublicKeyFingerprint": "ECDSA-P256:40274E124C4C57AA",
+          "signature": "cdffb41677d95db9c3db6441640fd476c9b01b1961013d81c6af025161f7a8d1a0429b990d39c4a3f523cb7d131695c1b963779ea716ffab98b83865bfbff314",
+          "signerPublicKeyFingerprint": "ECDSA-P256:F39BC5A979F021BC",
           "endorsements": [],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer')"
         }
       ],
-      "previousHash": "1c6d1a06efcb29ddd5fc67621056332aa34303268a2e6491de3dc8799880020d",
-      "merkleRoot": "efcbc61cae361f0b3ab69df6e6cd8287292d75ddc442d933f219ab7c28efda86",
+      "previousHash": "908bac2ab7164494a75409862587edb0af050c0fe38933c669f9226bed839659",
+      "merkleRoot": "7485840849d2ef22d526ddefc6e842e6148d0bf18749d22837968c085d35605d",
       "creatingOrgId": "MFG-UNIVERSAL",
       "creatingOrgName": "Universal Corporation Ltd",
       "creatingOrgMsp": "UniversalCorpMSP",
-      "hash": "f2a4cdd760473c6e45d7f9088ddad521c8c94dbb7038a8959a1165f76c7cae46"
+      "hash": "2008fa48d2126d0198a5d12f07c71d35e3d130afbfdb83802d1a8ecf11fbf9cf"
     },
     {
       "index": 28,
       "timestamp": "2026-01-25T10:30:00.000Z",
       "transactions": [
         {
-          "txId": "tx_2f86db8d3ce22948beaa",
+          "txId": "tx_c951fa4dc3a138f8937c",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "transferBatch",
@@ -2452,34 +2452,34 @@
               }
             ]
           },
-          "signature": "098bac250956ebc34c97b6e2c6467d53e4ff7048434d05e99f23a2e4dff6cdc177b2bc9fb94b0904d7b5bdf96dd31ad207e00118ee161cceb739d86b76bbbbe4",
-          "signerPublicKeyFingerprint": "ECDSA-P256:40274E124C4C57AA",
+          "signature": "d64d8f2150a8ae844dd7d6c4cc89c6591f2b54700a49855e6a59e50739cbd3032a62cfaf78ef7ec183148fb70d4730c55330d1dd5df16d637535b51821363182",
+          "signerPublicKeyFingerprint": "ECDSA-P256:F39BC5A979F021BC",
           "endorsements": [
             {
               "endorserOrgId": "DIST-KEMSA",
               "endorserMspId": "KemsaSupplyMSP",
               "endorserRole": "Distributor",
               "timestamp": "2026-01-25T10:30:00.000Z",
-              "signature": "2c391c8d5abd82b00c99670778c0ab876470b6c6d9e1c5ee7bf1083c6501be282ac362e11efd1d1a4032605a65ce34e98e9e6e6d5f9c6212daf10e75f720c53a",
-              "publicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9"
+              "signature": "d5701fcb8d65dc75811f8f619bab603aa0fa76c9deb4eda0ac56ffcebc37b3adc61e8656c9a915f81d07bab64eeafc2f7dbaffbe412a0e718ed780c1aa34513e",
+              "publicKeyFingerprint": "ECDSA-P256:6A5B150261F96723"
             }
           ],
           "endorsementPolicy": "AND('UniversalCorpMSP.peer', 'KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "f2a4cdd760473c6e45d7f9088ddad521c8c94dbb7038a8959a1165f76c7cae46",
-      "merkleRoot": "022402a6e13573b539c2394c1a346591b4538b94caf695279c4d6ab928e18748",
+      "previousHash": "2008fa48d2126d0198a5d12f07c71d35e3d130afbfdb83802d1a8ecf11fbf9cf",
+      "merkleRoot": "a6e9f47e16948556c5a96edc532fe61709f0a1d44ebd0693aa9a1ffd9cf4cd0d",
       "creatingOrgId": "MFG-UNIVERSAL",
       "creatingOrgName": "Universal Corporation Ltd",
       "creatingOrgMsp": "UniversalCorpMSP",
-      "hash": "2288923bffa335f8c4e4333f3011ed056cab861de01474c753ee7ddf77554c5a"
+      "hash": "20eaa5433b630306e4aa5215d8118073bcce0b8513b3d4a78ce4b26301b9cd79"
     },
     {
       "index": 29,
       "timestamp": "2026-01-26T13:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_36e7d757f23b64b45cd6",
+          "txId": "tx_1c808f7baf3ce71fb9ba",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "receiveBatch",
@@ -2515,25 +2515,25 @@
               }
             ]
           },
-          "signature": "e6b403d5aac06fcea9830b784eabaceb28907b8dba6ea2080397699e8081d273b541d4bb5a6dea9b143043829026910301fce91a4cf4678d5fe49a3f7ba8df5b",
-          "signerPublicKeyFingerprint": "ECDSA-P256:71850E3322CE01E9",
+          "signature": "8dc3390987fa6f52e73c8667786ede275116ad45ea03de97292b37557f38dac9d221dd5c5d76ff798af91c178886608e2e39b2ede0f53ab13387def755b8c7f1",
+          "signerPublicKeyFingerprint": "ECDSA-P256:6A5B150261F96723",
           "endorsements": [],
           "endorsementPolicy": "AND('KemsaSupplyMSP.peer')"
         }
       ],
-      "previousHash": "2288923bffa335f8c4e4333f3011ed056cab861de01474c753ee7ddf77554c5a",
-      "merkleRoot": "c51025f37c18e92f9e417b3546b4f0b10baeb7f393972faf3da73fa92f2e7ba9",
+      "previousHash": "20eaa5433b630306e4aa5215d8118073bcce0b8513b3d4a78ce4b26301b9cd79",
+      "merkleRoot": "32be764624892021d35a565b993991bedc15873fbb37b3a34d8296dc20a5c0f9",
       "creatingOrgId": "DIST-KEMSA",
       "creatingOrgName": "KEMSA (Kenya Medical Supplies Authority)",
       "creatingOrgMsp": "KemsaSupplyMSP",
-      "hash": "93919847d810d9db39d302b23b4d1c8dcdec6ca3beb8c344c98d31e89807ae84"
+      "hash": "6f5a434b426286a6740f07f07e16ef45c674e0b818338dfff28cc4d342895fe6"
     },
     {
       "index": 30,
       "timestamp": "2026-02-28T11:00:00.000Z",
       "transactions": [
         {
-          "txId": "tx_40075496d42e6483d3eb",
+          "txId": "tx_9887191fbe138c690d80",
           "channelId": "pharma-ke-channel",
           "chaincodeId": "pharmachain-cc-v1",
           "fn": "recallBatch",
@@ -2568,18 +2568,18 @@
               }
             ]
           },
-          "signature": "060e6384098fb6e83cf7a1d84677d5561e7e544093e3624aabb1dea9799f56f2b86f0cb3c2b1792799d89a2afd2c62a36017b65309af54cffae536f68daace53",
-          "signerPublicKeyFingerprint": "ECDSA-P256:07DD9704A33A8ED0",
+          "signature": "3e03ea068a5ec3339accae1e3477f0b6a527a14bcc765bfc5a7bcdca0749e96842fd458d0d749ba85fabbff023db14bb521edfe933d0e765e644a142501a3d51",
+          "signerPublicKeyFingerprint": "ECDSA-P256:8F67D5162EFF297D",
           "endorsements": [],
           "endorsementPolicy": "AND('PpbRegulatorMSP.regulator')"
         }
       ],
-      "previousHash": "93919847d810d9db39d302b23b4d1c8dcdec6ca3beb8c344c98d31e89807ae84",
-      "merkleRoot": "06b1fa6db10dff4d767617e2cf1f2be85283725643a3f5b60bd17c79c29ca500",
+      "previousHash": "6f5a434b426286a6740f07f07e16ef45c674e0b818338dfff28cc4d342895fe6",
+      "merkleRoot": "beee02844c51f9d955e49953b11a634c783a590bdb8541d86b4db9380a866673",
       "creatingOrgId": "REG-PPB",
       "creatingOrgName": "Pharmacy and Poisons Board (PPB Kenya)",
       "creatingOrgMsp": "PpbRegulatorMSP",
-      "hash": "1eba4b45755ce9e4d2dea064acdc7f60247a3d655cfd1c4ce26d00b42199980b"
+      "hash": "7f3967ae69b1c0df95ff0d44c153d8611cd60b1ccb769f72fab9e122d58bf1c1"
     }
   ]
 }
